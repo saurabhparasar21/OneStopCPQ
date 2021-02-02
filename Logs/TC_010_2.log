@@ -1,0 +1,27 @@
+01/30/2021 11:42:10 AM: INFO: #################################################################
+01/30/2021 11:42:10 AM: INFO:   TC_010_2: Proposal_To_Agreement flow (Reg Cart Turbo Pricing   
+01/30/2021 11:42:10 AM: INFO: #################################################################
+01/30/2021 11:42:10 AM: INFO: ---------- Login to the Application
+01/30/2021 11:42:25 AM: INFO: ---------- Switch to Lightning if not set
+01/30/2021 11:42:25 AM: INFO: ---------- Create a new Proposal
+01/30/2021 11:42:31 AM: INFO: ---------- Set Proposal Fields
+01/30/2021 11:42:46 AM: INFO: ---------- Configure the Proposal
+01/30/2021 11:42:50 AM: INFO: ---------- Search and Configure the Product
+01/30/2021 11:42:56 AM: INFO: ---------- Search and add the Product to Cart
+01/30/2021 11:43:38 AM: INFO: ---------- Finalize the Cart
+01/30/2021 11:43:38 AM: INFO: ---------- Click on Related Tab, Check Configuration Status
+01/30/2021 11:43:51 AM: INFO: ---------- (PASSED): Proposal is Finalized Successfully
+01/30/2021 11:43:51 AM: INFO: ---------- Generate Proposal Document
+01/30/2021 11:44:17 AM: INFO: ---------- (PASSED): Proposal Document generated successfully
+01/30/2021 11:44:38 AM: INFO: ---------- (PASSED): Approval Stage is correctly updated to Generated
+01/30/2021 11:44:38 AM: INFO: ---------- Present the Proposal
+01/30/2021 11:45:29 AM: INFO: ---------- (PASSED): Approval Stage is correctly updated to Presented
+01/30/2021 11:45:29 AM: INFO: ---------- Accept the Proposal
+01/30/2021 11:45:46 AM: INFO: ---------- (PASSED): Approval Stage is correctly updated to Accepted
+01/30/2021 11:45:46 AM: INFO: ---------- Click on Create Agreement With Line Items
+01/30/2021 11:46:01 AM: INFO: ---------- (PASSED): Agreement creation from Proposal is successful **********
+01/30/2021 11:46:05 AM: INFO: ---------- (PASSED): Agreement is Saved Successfully
+01/30/2021 11:46:08 AM: INFO: ---------- (PASSED): Correct No. of Agreement line(s) created
+01/30/2021 11:46:12 AM: INFO: ---------- Delete the Agreement
+01/30/2021 11:46:45 AM: INFO: ---------- Delete the Proposal
+01/30/2021 11:46:45 AM: INFO: ---------- END ----------

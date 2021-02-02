@@ -1,0 +1,15 @@
+01/31/2021 11:38:46 AM: INFO: #################################################################
+01/31/2021 11:38:46 AM: INFO:          TC_012_3: Approvals Reg Cart Turbo Pricing              
+01/31/2021 11:38:46 AM: INFO: #################################################################
+01/31/2021 11:38:46 AM: INFO: ---------- Login to the Application
+01/31/2021 11:39:03 AM: INFO: ---------- Switch to Lightning if not set
+01/31/2021 11:39:03 AM: INFO: ---------- Create a new Proposal
+01/31/2021 11:39:13 AM: INFO: ---------- Set Proposal Fields
+01/31/2021 11:39:34 AM: INFO: ---------- Configure the Proposal
+01/31/2021 11:39:46 AM: INFO: ---------- Search and add Product to Cart
+01/31/2021 11:40:12 AM: INFO: ---------- Go to Shopping Cart
+01/31/2021 11:40:12 AM: INFO: ---------- Click on Submit for Pricing (Async) button
+01/31/2021 11:40:24 AM: INFO: ---------- Set desired Line item fields so that Approval will get triggered
+01/31/2021 11:40:49 AM: INFO: ---------- (PASSED): Approval icon is visible for the line item
+01/31/2021 11:40:49 AM: INFO: ---------- (PASSED): Cart page Approval Status is changed to Approval Required
+01/31/2021 11:40:49 AM: INFO: ---------- Click on Submit For Approval button

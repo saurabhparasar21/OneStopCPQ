@@ -1,0 +1,27 @@
+01/30/2021 12:40:58 PM: INFO: ########################################################################
+01/30/2021 12:40:58 PM: INFO:   TC_010_5: Proposal_To_Agreement flow (Enterprise Cart Turbo Pricing   
+01/30/2021 12:40:58 PM: INFO: ########################################################################
+01/30/2021 12:40:58 PM: INFO: ---------- Login to the Application
+01/30/2021 12:41:14 PM: INFO: ---------- Switch to Lightning if not set
+01/30/2021 12:41:14 PM: INFO: ---------- Create a new Proposal
+01/30/2021 12:41:21 PM: INFO: ---------- Set Proposal Fields
+01/30/2021 12:41:44 PM: INFO: ---------- Configure the Proposal
+01/30/2021 12:41:47 PM: INFO: ---------- Search and Configure the Product
+01/30/2021 12:41:53 PM: INFO: ---------- Search and add the Product to Cart
+01/30/2021 12:42:31 PM: INFO: ---------- Finalize the Cart
+01/30/2021 12:42:33 PM: INFO: ---------- Click on Related Tab, Check Configuration Status
+01/30/2021 12:42:46 PM: INFO: ---------- (PASSED): Proposal is Finalized Successfully
+01/30/2021 12:42:46 PM: INFO: ---------- Generate Proposal Document
+01/30/2021 12:43:12 PM: INFO: ---------- (PASSED): Proposal Document generated successfully
+01/30/2021 12:43:33 PM: INFO: ---------- (PASSED): Approval Stage is correctly updated to Generated
+01/30/2021 12:43:33 PM: INFO: ---------- Present the Proposal
+01/30/2021 12:44:21 PM: INFO: ---------- (PASSED): Approval Stage is correctly updated to Presented
+01/30/2021 12:44:21 PM: INFO: ---------- Accept the Proposal
+01/30/2021 12:44:37 PM: INFO: ---------- (PASSED): Approval Stage is correctly updated to Accepted
+01/30/2021 12:44:37 PM: INFO: ---------- Click on Create Agreement With Line Items
+01/30/2021 12:44:50 PM: INFO: ---------- (PASSED): Agreement creation from Proposal is successful **********
+01/30/2021 12:44:55 PM: INFO: ---------- (PASSED): Agreement is auto Finalized Successfully
+01/30/2021 12:44:58 PM: INFO: ---------- (PASSED): Correct No. of Agreement line(s) created
+01/30/2021 12:45:02 PM: INFO: ---------- Delete the Agreement
+01/30/2021 12:45:35 PM: INFO: ---------- Delete the Proposal
+01/30/2021 12:45:36 PM: INFO: ---------- END ----------

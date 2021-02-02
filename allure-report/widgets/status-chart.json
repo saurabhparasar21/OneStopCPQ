@@ -1,0 +1,361 @@
+[ {
+  "uid" : "a77af4393b988b47",
+  "name" : "test_PAR_Split",
+  "time" : {
+    "start" : 1612208146807,
+    "stop" : 1612208248714,
+    "duration" : 101907
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "461a4756ab82ce0d",
+  "name" : "test_MassUpdateAction_Split",
+  "time" : {
+    "start" : 1612205162922,
+    "stop" : 1612205253866,
+    "duration" : 90944
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a8a7da8156b9226d",
+  "name" : "test_CustomCartView_Split",
+  "time" : {
+    "start" : 1612207929427,
+    "stop" : 1612207976176,
+    "duration" : 46749
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "38705064a42cfee0",
+  "name" : "test_Login",
+  "time" : {
+    "start" : 1612204264223,
+    "stop" : 1612204306503,
+    "duration" : 42280
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bedf6ef0622f87c7",
+  "name" : "test_MultipleAdjustment_Classic",
+  "time" : {
+    "start" : 1612204430725,
+    "stop" : 1612204568620,
+    "duration" : 137895
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a438076be3736385",
+  "name" : "test_ManualAdjustment_Classic",
+  "time" : {
+    "start" : 1612208863805,
+    "stop" : 1612208962397,
+    "duration" : 98592
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "403e5c23c188a55a",
+  "name" : "test_PAR_Turbo",
+  "time" : {
+    "start" : 1612208252079,
+    "stop" : 1612208353699,
+    "duration" : 101620
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f023706b845b382",
+  "name" : "test_LoginPageTitle",
+  "time" : {
+    "start" : 1612273029371,
+    "stop" : 1612273031983,
+    "duration" : 2612
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86ad46e57f58df6f",
+  "name" : "test_DeleteProductAction_Classic",
+  "time" : {
+    "start" : 1612205369309,
+    "stop" : 1612205468169,
+    "duration" : 98860
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "70ed35da1e3386b5",
+  "name" : "test_CartCopyAction_Classic",
+  "time" : {
+    "start" : 1612204753434,
+    "stop" : 1612204852615,
+    "duration" : 99181
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b791e700d77583cd",
+  "name" : "test_Prop2Agrmnt_Split",
+  "time" : {
+    "start" : 1612208560797,
+    "stop" : 1612208665789,
+    "duration" : 104992
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "869761cd1d5c472c",
+  "name" : "test_DeleteProductAction_Split",
+  "time" : {
+    "start" : 1612205471771,
+    "stop" : 1612205565104,
+    "duration" : 93333
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "aaa10f0c472a9790",
+  "name" : "test_DeleteProductAction_Turbo",
+  "time" : {
+    "start" : 1612205568685,
+    "stop" : 1612205671523,
+    "duration" : 102838
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "34388eb45c1c918e",
+  "name" : "test_Prop2Agrmnt_EnterpriseTurbo",
+  "time" : {
+    "start" : 1612208765537,
+    "stop" : 1612208860310,
+    "duration" : 94773
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a9210ce327b2f1b8",
+  "name" : "test_CartCopyAction_Turbo",
+  "time" : {
+    "start" : 1612204953507,
+    "stop" : 1612205054918,
+    "duration" : 101411
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3de1822c38a2b877",
+  "name" : "test_ManualAdjustment_Split",
+  "time" : {
+    "start" : 1612209067466,
+    "stop" : 1612209158425,
+    "duration" : 90959
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a81843f34f9eebef",
+  "name" : "test_ManualAdjustment_Turbo",
+  "time" : {
+    "start" : 1612208966051,
+    "stop" : 1612209064047,
+    "duration" : 97996
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "13e0fd1e6004fdf",
+  "name" : "test_SaveAsFav_Split",
+  "time" : {
+    "start" : 1612205882983,
+    "stop" : 1612205974625,
+    "duration" : 91642
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a06521f4324d5e45",
+  "name" : "test_Prop2Agrmnt_Turbo",
+  "time" : {
+    "start" : 1612208459165,
+    "stop" : 1612208557386,
+    "duration" : 98221
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b89d3125f79e4ff2",
+  "name" : "test_Approval_Classic",
+  "time" : {
+    "start" : 1612209161970,
+    "stop" : 1612209262054,
+    "duration" : 100084
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1a670722e15f4246",
+  "name" : "test_MultipleAdjustment_Split",
+  "time" : {
+    "start" : 1612204658384,
+    "stop" : 1612204749936,
+    "duration" : 91552
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "431d1914a71b40f4",
+  "name" : "test_CustomCartView_Turbo",
+  "time" : {
+    "start" : 1612206082162,
+    "stop" : 1612207918643,
+    "duration" : 1836481
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a4207d1d3ac4de4a",
+  "name" : "test_MassUpdateAction_Turbo",
+  "time" : {
+    "start" : 1612205257479,
+    "stop" : 1612205365767,
+    "duration" : 108288
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "308099b2dd5bb9e5",
+  "name" : "test_Approval_Turbo",
+  "time" : {
+    "start" : 1612209265594,
+    "stop" : 1612209363233,
+    "duration" : 97639
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "770c5442159a966b",
+  "name" : "test_Prop2Agrmnt_Classic",
+  "time" : {
+    "start" : 1612208357099,
+    "stop" : 1612208455781,
+    "duration" : 98682
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "82d778f76cec1b09",
+  "name" : "test_CustomCartView_Classic",
+  "time" : {
+    "start" : 1612205978171,
+    "stop" : 1612206078585,
+    "duration" : 100414
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2617f6e089e43e2f",
+  "name" : "test_SaveAsFav_Turbo",
+  "time" : {
+    "start" : 1612205777524,
+    "stop" : 1612205879450,
+    "duration" : 101926
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "202e5aa0592d1293",
+  "name" : "test_CreateDirectProposal",
+  "time" : {
+    "start" : 1612204361856,
+    "stop" : 1612204427312,
+    "duration" : 65456
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a78951204f61cddd",
+  "name" : "test_SaveAsFav_Classic",
+  "time" : {
+    "start" : 1612205675031,
+    "stop" : 1612205773802,
+    "duration" : 98771
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "35fb07795cacd39a",
+  "name" : "test_Prop2Agrmnt_EnterpriseClassic",
+  "time" : {
+    "start" : 1612208669201,
+    "stop" : 1612208762052,
+    "duration" : 92851
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "eca5f0bdac3c5b2e",
+  "name" : "test_CreateProposalFromOppty",
+  "time" : {
+    "start" : 1612204309819,
+    "stop" : 1612204358522,
+    "duration" : 48703
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "514e2e12811336e9",
+  "name" : "test_MultipleAdjustment_Turbo",
+  "time" : {
+    "start" : 1612204571969,
+    "stop" : 1612204654697,
+    "duration" : 82728
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "dd8cc0be3530a147",
+  "name" : "test_PAR_Classic",
+  "time" : {
+    "start" : 1612207979842,
+    "stop" : 1612208143410,
+    "duration" : 163568
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bfbd259b1f287d41",
+  "name" : "test_Approval_Split",
+  "time" : {
+    "start" : 1612209366790,
+    "stop" : 1612209457534,
+    "duration" : 90744
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d0f4efea05838981",
+  "name" : "test_MassUpdateAction_Classic",
+  "time" : {
+    "start" : 1612205058555,
+    "stop" : 1612205159417,
+    "duration" : 100862
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "59cd68d9d5cd5965",
+  "name" : "test_CartCopyAction_Split",
+  "time" : {
+    "start" : 1612204856066,
+    "stop" : 1612204949902,
+    "duration" : 93836
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

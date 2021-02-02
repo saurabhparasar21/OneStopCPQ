@@ -1,0 +1,33 @@
+01/30/2021 03:01:47 PM: INFO: #################################################################
+01/30/2021 03:01:47 PM: INFO:  TC_011_3: Different Type of Adjustments Split Cart Async Pricing
+01/30/2021 03:01:47 PM: INFO: #################################################################
+01/30/2021 03:01:47 PM: INFO: ---------- Login to the Application
+01/30/2021 03:02:14 PM: INFO: ---------- Switch to Lightning if not set
+01/30/2021 03:02:14 PM: INFO: ---------- Create a new Proposal
+01/30/2021 03:02:21 PM: INFO: ---------- Set Proposal Fields
+01/30/2021 03:02:42 PM: INFO: ---------- Configure the Proposal
+01/30/2021 03:02:52 PM: INFO: ---------- Search and add Product to Cart
+01/30/2021 03:03:17 PM: INFO: ---------- Click on Mini-Cart & then View Cart button
+01/30/2021 03:03:21 PM: INFO: ---------- Click on Submit for Pricing (Async) button
+01/30/2021 03:03:34 PM: INFO: ---------- Click on Net Adj link for the Product
+01/30/2021 03:03:34 PM: INFO: ---------- Set Adjustments in Net Adj Popup and Click on Save
+01/30/2021 03:03:43 PM: INFO: ---------- Click on Submit for Pricing (Async) button
+01/30/2021 03:03:56 PM: INFO: ---------- (PASSED): Manual Adjustment (% Discount), Grand Total is correct ----------
+01/30/2021 03:04:08 PM: INFO: ---------- Click on Submit for Pricing (Async) button
+01/30/2021 03:04:20 PM: INFO: ---------- (PASSED): Manual Adjustment (Discount Amount), Grand Total is correct ----------
+01/30/2021 03:04:37 PM: INFO: ---------- Click on Submit for Pricing (Async) button
+01/30/2021 03:04:50 PM: INFO: ---------- (PASSED): Manual Adjustment (%Mark up), Grand Total is correct ----------
+01/30/2021 03:05:01 PM: INFO: ---------- Click on Submit for Pricing (Async) button
+01/30/2021 03:05:13 PM: INFO: ---------- (PASSED): Manual Adjustment (Markup Amount), Grand Total is correct ----------
+01/30/2021 03:05:24 PM: INFO: ---------- Click on Submit for Pricing (Async) button
+01/30/2021 03:05:37 PM: INFO: ---------- (PASSED): Manual Adjustment (Base Price Override), Grand Total is correct ----------
+01/30/2021 03:05:48 PM: INFO: ---------- Click on Submit for Pricing (Async) button
+01/30/2021 03:06:00 PM: INFO: ---------- (PASSED): Manual Adjustment (Price Override), Grand Total is correct ----------
+01/30/2021 03:06:11 PM: INFO: ---------- Click on Submit for Pricing (Async) button
+01/30/2021 03:06:24 PM: INFO: ---------- (PASSED): Manual Adjustment (Price Factor), Grand Total is correct ----------
+01/30/2021 03:06:36 PM: INFO: ---------- Go back to Catalog Page and the Prd to test Allow Manual Adj False at PLI
+01/30/2021 03:06:46 PM: INFO: ---------- Click on Mini-Cart & then View Cart button
+01/30/2021 03:06:50 PM: INFO: ---------- Click on Submit for Pricing (Async) button
+01/30/2021 03:07:03 PM: INFO: ---------- (PASSED): Net Adj. is disabled for Product with Allow Manual Adj False in PLI
+01/30/2021 03:07:03 PM: INFO: ---------- Abandon the Cart and delete the proposal
+01/30/2021 03:07:28 PM: INFO: ---------- END ---------- 

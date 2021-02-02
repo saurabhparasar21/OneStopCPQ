@@ -1,0 +1,63 @@
+01/29/2021 05:05:09 PM: INFO: #################################################################
+01/29/2021 05:05:09 PM: INFO:    TC_009_3: PAR (All Actions) (Regular Cart Turbo Pricing       
+01/29/2021 05:05:09 PM: INFO: #################################################################
+01/29/2021 05:05:09 PM: INFO: ---------- Login to the Application
+01/29/2021 05:05:36 PM: INFO: ---------- Switch to Lightning if not set
+01/29/2021 05:05:36 PM: INFO: ---------- Create a new Proposal
+01/29/2021 05:05:46 PM: INFO: ---------- Set Proposal Fields
+01/29/2021 05:06:01 PM: INFO: ---------- Configure the Proposal
+01/29/2021 05:06:05 PM: INFO: ---------- Search and Configure the Product
+01/29/2021 05:06:14 PM: INFO: ---------- Search Product, Set Qty and the Configure the Bundle
+01/29/2021 05:06:30 PM: INFO: ---------- Check if the attributes are hidden according to the PAR
+01/29/2021 05:06:31 PM: INFO: ---------------------------------------------------
+01/29/2021 05:06:31 PM: INFO: ---------- (PASSED): MN - 2020 (Checkbox) is hidden
+01/29/2021 05:06:31 PM: INFO: ---------- (PASSED): MN - 2020 (Currency) is hidden
+01/29/2021 05:06:31 PM: INFO: ---------- (PASSED): MN - 2020 (Text) is hidden
+01/29/2021 05:06:31 PM: INFO: ---------- (PASSED): MN - 2020 (MultiSelect) is hidden
+01/29/2021 05:06:31 PM: INFO: ---------- (PASSED): MN - 2020 (Number) is hidden
+01/29/2021 05:06:31 PM: INFO: ---------- (PASSED): MN - 2020 (Percentage) is hidden
+01/29/2021 05:06:31 PM: INFO: ---------- (PASSED): MN - 2020 (Picklist) is hidden
+01/29/2021 05:06:31 PM: INFO: ---------- (PASSED): MN - 2020 (LookUp) is hidden
+01/29/2021 05:06:31 PM: INFO: ---------- Remove the Product and go to Catalog page
+01/29/2021 05:06:31 PM: INFO: ---------- Search Product, Set Qty and the Configure the Bundle
+01/29/2021 05:06:37 PM: INFO: ---------------------------------------------------
+01/29/2021 05:06:37 PM: INFO: ---------- (PASSED): MN - 2020 (Checkbox) is disabled
+01/29/2021 05:06:37 PM: INFO: ---------- (PASSED): MN - 2020 (Currency) is disabled
+01/29/2021 05:06:37 PM: INFO: ---------- (PASSED): MN - 2020 (Text) is disabled
+01/29/2021 05:06:37 PM: INFO: ---------- (PASSED): MN - 2020 (MultiSelect) is disabled
+01/29/2021 05:06:37 PM: INFO: ---------- (PASSED): MN - 2020 (Number) is disabled
+01/29/2021 05:06:37 PM: INFO: ---------- (PASSED): MN - 2020 (Percentage) is disabled
+01/29/2021 05:06:37 PM: INFO: ---------- (PASSED): MN - 2020 (Picklist) is disabled
+01/29/2021 05:06:37 PM: INFO: ---------- (PASSED): MN - 2020 (LookUp) is disabled
+01/29/2021 05:06:37 PM: INFO: ---------- Remove the Product and go to Catalog page
+01/29/2021 05:06:37 PM: INFO: ---------- Search Product, Set Qty and the Configure the Bundle
+01/29/2021 05:06:52 PM: INFO: ---------------------------------------------------
+01/29/2021 05:06:52 PM: INFO: ---------- (PASSED): MN - 2020 (Checkbox) is required
+01/29/2021 05:06:52 PM: INFO: ---------- (PASSED): MN - 2020 (Currency) is required
+01/29/2021 05:06:52 PM: INFO: ---------- (PASSED): MN - 2020 (Text) is required
+01/29/2021 05:06:52 PM: INFO: ---------- (PASSED): MN - 2020 (MultiSelect) is required
+01/29/2021 05:06:52 PM: INFO: ---------- (PASSED): MN - 2020 (Number) is required
+01/29/2021 05:06:52 PM: INFO: ---------- (PASSED): MN - 2020 (Percentage) is required
+01/29/2021 05:06:52 PM: INFO: ---------- (PASSED): MN - 2020 (Picklist) is required
+01/29/2021 05:06:52 PM: INFO: ---------- (PASSED): MN - 2020 (LookUp) is required
+01/29/2021 05:06:52 PM: INFO: ---------- Remove the Product and go to Catalog page
+01/29/2021 05:06:52 PM: INFO: ---------- Search Product, Set Qty and the Configure the Bundle
+01/29/2021 05:06:58 PM: INFO: ----------------------------------------------------------
+01/29/2021 05:06:58 PM: INFO: ---------- (PASSED): MN - 2020 (Currency) is defaulted correctly
+01/29/2021 05:06:58 PM: INFO: ---------- (PASSED): MN - 2020 (Text) is defaulted correctly
+01/29/2021 05:06:58 PM: INFO: ---------- (PASSED): MN - 2020 (MultiSelect) is defaulted correctly
+01/29/2021 05:06:58 PM: INFO: ---------- (PASSED): MN - 2020 (Number) is defaulted correctly
+01/29/2021 05:06:58 PM: INFO: ---------- (PASSED): MN - 2020 (Percentage) is defaulted correctly
+01/29/2021 05:06:58 PM: INFO: ---------- (PASSED): MN - 2020 (Picklist) is defaulted correctly
+01/29/2021 05:07:04 PM: INFO: ---------------------------------------------------------
+01/29/2021 05:07:11 PM: INFO: ---------- (PASSED): MN - 2020 (Currency) is Reset correctly
+01/29/2021 05:07:19 PM: INFO: ---------- (PASSED): MN - 2020 (Text) is Reset correctly
+01/29/2021 05:07:21 PM: INFO: ---------- (PASSED): MN - 2020 (MultiSelect) is Reset correctly
+01/29/2021 05:07:29 PM: INFO: ---------- (PASSED): MN - 2020 (Number) is Reset correctly
+01/29/2021 05:07:36 PM: INFO: ---------- (PASSED): MN - 2020 (Percentage) is Reset correctly
+01/29/2021 05:07:37 PM: INFO: ---------- (PASSED): MN - 2020 (Picklist) is Reset correctly
+01/29/2021 05:07:43 PM: INFO: ---------- (PASSED): Correct attributes are allowed for MN - 2020 (Picklist)
+01/29/2021 05:07:44 PM: INFO: ---------- (PASSED): Correct attributes are allowed for MN - 2020 (MultiSelect)
+01/29/2021 05:07:44 PM: INFO: ----------------------------------------------------------
+01/29/2021 05:07:44 PM: INFO: Abandon the Cart
+01/29/2021 05:08:09 PM: INFO: ---------- END ---------- 
