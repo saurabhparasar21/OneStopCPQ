@@ -1,18 +1,9 @@
-01/29/2021 10:09:53 AM: INFO: #################################################################
-01/29/2021 10:09:53 AM: INFO: TC_005_1: Cart - Mass Update Action (Regular Cart - Normal Pricing)
-01/29/2021 10:09:53 AM: INFO: #################################################################
-01/29/2021 10:09:53 AM: INFO: ---------- Login to the application
-01/29/2021 10:10:12 AM: INFO: ---------- Create a new Proposal
-01/29/2021 10:10:19 AM: INFO: ---------- Set Proposal Fields ----------
-01/29/2021 10:10:34 AM: INFO: ---------- Configure the Proposal
-01/29/2021 10:10:43 AM: INFO: ---------- Search and add five Products to Cart
-01/29/2021 10:12:28 AM: INFO: ---------- Go to Shopping Cart
-01/29/2021 10:12:54 AM: INFO: ---------- Capture Grand Total and No. of line items before Mass Update Action
-01/29/2021 10:12:54 AM: INFO: ---------- No of rows before mass update: 5
-01/29/2021 10:12:54 AM: INFO: ---------- Grand Total before mass update: 500.00000
-01/29/2021 10:12:54 AM: INFO: ---------- Select all check boxes and then Click on Mass Update action
-01/29/2021 10:12:54 AM: INFO: ---------- Set Quantity, Adjustments in Mass Update Pop-up
-01/29/2021 10:13:13 AM: INFO: ---------- Capture Grand Total and No. of line items After Mass Update Action
-01/29/2021 10:13:13 AM: INFO: ---------- Grand Total after Mass Update: 2,250.00000
-01/29/2021 10:13:13 AM: INFO: ---------- (PASSED): Grand Total after Mass Update action is correct ----------
-01/29/2021 10:13:35 AM: INFO: ---------- END ---------- 
+02/03/2021 09:02:52 AM: INFO: #################################################################
+02/03/2021 09:02:52 AM: INFO: TC_005_1: Cart - Mass Update Action (Regular Cart - Normal Pricing)
+02/03/2021 09:02:52 AM: INFO: #################################################################
+02/03/2021 09:02:52 AM: INFO: ---------- Login to the application
+02/03/2021 09:03:08 AM: INFO: ---------- Create a new Proposal
+02/03/2021 09:03:16 AM: INFO: ---------- Set Proposal Fields ----------
+02/03/2021 09:03:31 AM: INFO: ---------- Configure the Proposal
+02/03/2021 09:03:39 AM: INFO: ---------- Search and add five Products to Cart
+02/03/2021 09:06:09 AM: INFO: ---------- Go to Shopping Cart

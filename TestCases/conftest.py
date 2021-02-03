@@ -24,7 +24,7 @@ def setup():
     options.add_argument('--disable-gpu')
     options.add_argument('--disable-dev-shm-usage')
     options.add_argument('--no-sandbox')
-    driver = webdriver.Chrome(executable_path="C:/Users/mnayak/AppData/Local/Programs/Driver/chromedriver.exe",options=options) #,options=options
+    driver = webdriver.Chrome(executable_path="C:/Users/mnayak/AppData/Local/Programs/Driver/chromedriver.exe") #,options=options
     return driver
 
 def pytest_addoption(parser):     # Addoption
