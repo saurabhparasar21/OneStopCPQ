@@ -11,6 +11,7 @@ class loginPage:
 
 # Define all the methods using all these locators
     def setUsername(self,username):
+        self.driver.maximize_window()
         self.driver.find_element_by_id(self.textbox_Username_id).clear()
         self.driver.find_element_by_id(self.textbox_Username_id).send_keys(username)
 

@@ -1,17 +1,10 @@
-02/03/2021 09:11:05 AM: INFO: #################################################################
-02/03/2021 09:11:05 AM: INFO: TC_005_3: Cart - Mass Update Action (Normal Cart - Turbo Pricing)  
-02/03/2021 09:11:05 AM: INFO: #################################################################
-02/03/2021 09:11:05 AM: INFO: ---------- Login to the application
-02/03/2021 09:11:20 AM: INFO: ---------- Create a new Proposal
-02/03/2021 09:11:27 AM: INFO: ---------- Set Proposal Fields ----------
-02/03/2021 09:11:50 AM: INFO: ---------- Configure the Proposal
-02/03/2021 09:11:58 AM: INFO: ---------- Search and add 5 Products to Cart
-02/03/2021 09:12:59 AM: INFO: ---------- Go to Shopping Cart
-02/03/2021 09:13:24 AM: INFO: ---------- Capture Grand Total and No. of line items before Copy Action
-02/03/2021 09:13:24 AM: INFO: ---------- Grand Total Before Mass Update: 500.00000
-02/03/2021 09:13:24 AM: INFO: ---------- Select all check boxes and then Click on Mass Update action
-02/03/2021 09:13:28 AM: INFO: ---------- Set Quantity, Adjustments in Mass Update Pop-up
-02/03/2021 09:13:47 AM: INFO: ---------- Capture Grand Total and No. of line items After Mass Update Action
-02/03/2021 09:13:47 AM: INFO: ---------- Grand Total after Mass Update: 2,250.00000
-02/03/2021 09:13:47 AM: INFO: ---------- (PASSED): Grand Total after Mass Update action is correct ----------
-02/03/2021 09:14:08 AM: INFO: ---------- END ---------- 
+02/03/2021 01:23:01 PM: INFO: #################################################################
+02/03/2021 01:23:01 PM: INFO: TC_005_3: Cart - Mass Update Action (Normal Cart - Turbo Pricing)  
+02/03/2021 01:23:01 PM: INFO: #################################################################
+02/03/2021 01:23:01 PM: INFO: ---------- Login to the application
+02/03/2021 01:23:19 PM: INFO: ---------- Create a new Proposal
+02/03/2021 01:23:26 PM: INFO: ---------- Set Proposal Fields ----------
+02/03/2021 01:23:54 PM: INFO: ---------- Configure the Proposal
+02/03/2021 01:24:03 PM: INFO: ---------- Search and add 5 Products to Cart
+02/03/2021 01:25:06 PM: INFO: ---------- Go to Shopping Cart
+02/03/2021 01:25:32 PM: INFO: ---------- Capture Grand Total and No. of line items before Copy Action

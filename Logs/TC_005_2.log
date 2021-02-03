@@ -1,20 +1,20 @@
-02/03/2021 09:07:26 AM: INFO: #################################################################
-02/03/2021 09:07:26 AM: INFO:  TC_005_2: Cart - Mass Update Action Split Cart Async Pricing    
-02/03/2021 09:07:26 AM: INFO: #################################################################
-02/03/2021 09:07:26 AM: INFO: ---------- Login to the application
-02/03/2021 09:07:42 AM: INFO: ---------- Create a new Proposal
-02/03/2021 09:07:54 AM: INFO: ---------- Set Proposal Fields ----------
-02/03/2021 09:08:15 AM: INFO: ---------- Configure the Proposal
-02/03/2021 09:08:23 AM: INFO: ---------- Search and add 5 Products to Cart
-02/03/2021 09:09:35 AM: INFO: ---------- Click on Mini-Cart & then View Cart button
-02/03/2021 09:09:39 AM: INFO: ---------- Click on Submit for Pricing (Async) button
-02/03/2021 09:09:50 AM: INFO: ---------- Capture Grand Total and No. of line items before Mass Update Action
-02/03/2021 09:10:16 AM: INFO: ---------- No of rows before mass update: 5
-02/03/2021 09:10:16 AM: INFO: ---------- Grand Total before mass update: 500.00000
-02/03/2021 09:10:16 AM: INFO: ---------- Select all check boxes and then Click on Mass Update action
-02/03/2021 09:10:19 AM: INFO: ---------- Set Quantity, Adjustments in Mass Update Pop-up
-02/03/2021 09:10:23 AM: INFO: ---------- Click on Submit for Pricing (Async) button
-02/03/2021 09:10:41 AM: INFO: ---------- Capture Grand Total and No. of line items After Mass Update Action
-02/03/2021 09:10:41 AM: INFO: ---------- Grand Total after Mass Update: 2,250.00000
-02/03/2021 09:10:41 AM: INFO: ---------- (PASSED): Grand Total after Mass Update action is correct ----------
-02/03/2021 09:11:02 AM: INFO: ---------- END ---------- 
+02/03/2021 01:18:58 PM: INFO: #################################################################
+02/03/2021 01:18:58 PM: INFO:  TC_005_2: Cart - Mass Update Action Split Cart Async Pricing    
+02/03/2021 01:18:58 PM: INFO: #################################################################
+02/03/2021 01:18:58 PM: INFO: ---------- Login to the application
+02/03/2021 01:19:28 PM: INFO: ---------- Create a new Proposal
+02/03/2021 01:19:35 PM: INFO: ---------- Set Proposal Fields ----------
+02/03/2021 01:20:01 PM: INFO: ---------- Configure the Proposal
+02/03/2021 01:20:10 PM: INFO: ---------- Search and add 5 Products to Cart
+02/03/2021 01:21:28 PM: INFO: ---------- Click on Mini-Cart & then View Cart button
+02/03/2021 01:21:32 PM: INFO: ---------- Click on Submit for Pricing (Async) button
+02/03/2021 01:21:43 PM: INFO: ---------- Capture Grand Total and No. of line items before Mass Update Action
+02/03/2021 01:22:08 PM: INFO: ---------- No of rows before mass update: 5
+02/03/2021 01:22:08 PM: INFO: ---------- Grand Total before mass update: 500.00000
+02/03/2021 01:22:08 PM: INFO: ---------- Select all check boxes and then Click on Mass Update action
+02/03/2021 01:22:11 PM: INFO: ---------- Set Quantity, Adjustments in Mass Update Pop-up
+02/03/2021 01:22:17 PM: INFO: ---------- Click on Submit for Pricing (Async) button
+02/03/2021 01:22:35 PM: INFO: ---------- Capture Grand Total and No. of line items After Mass Update Action
+02/03/2021 01:22:35 PM: INFO: ---------- Grand Total after Mass Update: 2,250.00000
+02/03/2021 01:22:35 PM: INFO: ---------- (PASSED): Grand Total after Mass Update action is correct ----------
+02/03/2021 01:22:57 PM: INFO: ---------- END ---------- 
