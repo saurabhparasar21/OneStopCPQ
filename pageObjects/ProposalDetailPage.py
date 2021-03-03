@@ -1,3 +1,4 @@
+import pyautogui
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
@@ -120,15 +121,23 @@ class ProposalDetailPage:
             EntrprsEle = WebDriverWait(self.driver, 60).until(EC.element_to_be_clickable((By.XPATH, EntrprsPath)))
             EntrprsEle.click()
 
-    def CheckConfigurationStatus(self,ExpectedStatus):
+    def CheckConfigurationStatus(self,QTCProfile,ExpectedStatus):
         for i in range(100):
-            Path="//span[@title='Configurations']/ancestor::lst-common-list//div[@class='slds-scrollable_y']//td[@data-label='Status']//lightning-formatted-text"
-            Ele=WebDriverWait(self.driver,60).until(EC.presence_of_element_located((By.XPATH,Path)))
+            if QTCProfile == "Split":
+                print("Inside Split")
+                Path="//span[@title='Configurations']/ancestor::div[@class='listWrapper']//td//span//lightning-formatted-text[text()='Main']/ancestor::td/following-sibling::td[1]//lightning-primitive-custom-cell"
+            else:
+                Path = "//span[@title='Configurations']/ancestor::lst-common-list//div[@class='slds-scrollable_y']//td[@data-label='Status']//lightning-formatted-text"
+            Ele = WebDriverWait(self.driver, 60).until(EC.presence_of_element_located((By.XPATH, Path)))
             print(Ele.text)
             if Ele.text != ExpectedStatus:
+                time.sleep(2)
                 print("Inside If")
-                self.driver.find_elements_by_xpath(Keys.F5)
-                time.sleep(4)
+                # self.driver.find_element_by_xpath(Keys.F5)
+                pyautogui.press('f5')
+                time.sleep(6)
+                self.ClickOnDetailPageTab('Related')
+                time.sleep(3)
         return Ele.text
 
     def ClickOnDetailPageTab(self,TabName):

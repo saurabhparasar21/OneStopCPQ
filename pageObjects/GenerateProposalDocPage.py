@@ -12,7 +12,7 @@ class GenerateProposalDocPage:
         self.driver=driver
 
     def SelectTemplate(self,Template):
-        time.sleep(12)
+        time.sleep(16)
         framePath = "//div[@class='iframe-parent slds-template_iframe slds-card']//iFrame[contains(@title,'title')]"
         WebDriverWait(self.driver,60).until(EC.frame_to_be_available_and_switch_to_it((By.XPATH,framePath)))
         path = "//span[text()='"+Template+"']/../..//input"

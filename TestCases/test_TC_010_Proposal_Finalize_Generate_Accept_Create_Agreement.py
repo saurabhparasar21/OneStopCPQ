@@ -96,7 +96,7 @@ class Test_Proposal_To_Agreement_Flow:
 
         time.sleep(5)
         PropsPageObj.ClickOnDetailPageTab('Related')
-        ConfigSts=PropsPageObj.CheckConfigurationStatus('Finalized')
+        ConfigSts=PropsPageObj.CheckConfigurationStatus('Regular','Finalized')
         if str(ConfigSts) == str('Finalized'):
             assert True
             self.lgrObj.info("---------- (PASSED): Proposal is Finalized Successfully")
@@ -310,7 +310,7 @@ class Test_Proposal_To_Agreement_Flow:
 
         time.sleep(5)
         PropsPageObj.ClickOnDetailPageTab('Related')
-        ConfigSts = PropsPageObj.CheckConfigurationStatus('Finalized')
+        ConfigSts = PropsPageObj.CheckConfigurationStatus('Regular','Finalized')
         if str(ConfigSts) == str('Finalized'):
             assert True
             self.lgrObj.info("---------- (PASSED): Proposal is Finalized Successfully")
@@ -538,7 +538,7 @@ class Test_Proposal_To_Agreement_Flow:
         self.lgrObj.info("---------- Click on Related Tab, Check Configuration Status")
         time.sleep(6)
         PropsPageObj.ClickOnDetailPageTab('Related')
-        ConfigSts = PropsPageObj.CheckConfigurationStatus('Finalized')
+        ConfigSts = PropsPageObj.CheckConfigurationStatus('Split','Finalized')
         if str(ConfigSts) == str('Finalized'):
             assert True
             self.lgrObj.info("---------- (PASSED): Proposal is Finalized Successfully")
@@ -754,7 +754,7 @@ class Test_Proposal_To_Agreement_Flow:
 
         time.sleep(5)
         PropsPageObj.ClickOnDetailPageTab('Related')
-        ConfigSts = PropsPageObj.CheckConfigurationStatus('Finalized')
+        ConfigSts = PropsPageObj.CheckConfigurationStatus('Enterprise','Finalized')
         if str(ConfigSts) == str('Finalized'):
             assert True
             self.lgrObj.info("---------- (PASSED): Proposal is Finalized Successfully")
@@ -969,7 +969,7 @@ class Test_Proposal_To_Agreement_Flow:
 
         time.sleep(5)
         PropsPageObj.ClickOnDetailPageTab('Related')
-        ConfigSts = PropsPageObj.CheckConfigurationStatus('Finalized')
+        ConfigSts = PropsPageObj.CheckConfigurationStatus('Enterprise','Finalized')
         if str(ConfigSts) == str('Finalized'):
             assert True
             self.lgrObj.info("---------- (PASSED): Proposal is Finalized Successfully")

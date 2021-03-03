@@ -1,5 +1,6 @@
 import time
 
+import pyautogui
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
@@ -42,18 +43,19 @@ class AgreementPage:
 
     def CheckConfigurationStatus(self,ExpectedStatus):
         print("---------- Method: CheckConfigurationStatus")
-        for i in range(1000):
-            time.sleep(5)
+        for i in range(100):
             Path = "//span[@title='Configurations']/ancestor::lst-common-list//div[@class='slds-scrollable_y']//td[@data-label='Status']//lightning-formatted-text"
-            Ele = self.driver.find_elements_by_xpath(Path)
-            print(Ele[1].text)
-            if Ele[1].text == str(ExpectedStatus):
-                return Ele[1].text
-                break
-            else:
-                self.ClickOnDetailPageTab('Related')
+            Ele = WebDriverWait(self.driver, 60).until(EC.presence_of_element_located((By.XPATH, Path)))
+            print(Ele.text)
+            if Ele.text != ExpectedStatus:
+                time.sleep(2)
+                print("Inside If")
+                # self.driver.find_element_by_xpath(Keys.F5)
+                pyautogui.press('f5')
                 time.sleep(6)
-            self.driver.refresh()
+                self.ClickOnDetailPageTab('Related')
+                time.sleep(3)
+        return Ele.text
 
 
     def CountNoOfAgrmntLines(self):

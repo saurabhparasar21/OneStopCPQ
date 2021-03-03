@@ -181,9 +181,9 @@ class CartPage:
         if Button == "OK":
             time.sleep(9)
             path="//md-dialog[contains(@aria-label,'The request')]//button[contains(text(),'"+Button+"')]"
+            element = WebDriverWait(self.driver, 60).until(EC.element_to_be_clickable((By.XPATH,path)))
             print("Path is: "+path)
-            ele=self.driver.find_element_by_xpath(path)
-            ele.click()
+            element.click()
 
     def ClickNetAdjForAnyProduct(self,PrdName):
         time.sleep(5)
