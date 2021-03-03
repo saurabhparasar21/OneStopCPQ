@@ -1,0 +1,114 @@
+{
+  "total" : 12,
+  "items" : [ {
+    "uid" : "f437aa06577aa3b64c30ae615cd542d6",
+    "name" : "test_TC_010_Proposal_Finalize_Generate_Accept_Create_Agreement",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "7c2a65fd0c5c8b1969966a5155e908ce",
+    "name" : "test_TC_012_Approval",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "f1f22f6cd914519233a855dd1749dce1",
+    "name" : "test_TC_003_TestMultipleAdjustments",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "6fca9602cf733ca1c85e1e30158b181a",
+    "name" : "test_TC_006_TestDeletePrdOnCart",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "3fa19727c5e0dfd0fd9397f02ef1c9bd",
+    "name" : "test_TC_008_TestCustomView",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "a4983a80b8ca602ba751bba95093dd0e",
+    "name" : "test_TC_011_ManualAdjustments",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "9e59a78755b9890e205170dafc9a5764",
+    "name" : "test_TC_005_TestMassUpdateOnCart",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "1af906a25c8f141009debe30401977dd",
+    "name" : "test_TC_004_TestCopyActionOnCart",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "3d4c09018aacd2f3ec09611d5a50f3ff",
+    "name" : "test_TC_007_TestSaveAsFavOnCart",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "fc53b3331b2a4719d42a49a3f58966e1",
+    "name" : "test_TC_009_TestProductAttributeRule",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ]
+}

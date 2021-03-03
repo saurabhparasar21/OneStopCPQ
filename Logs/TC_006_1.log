@@ -1,0 +1,22 @@
+02/23/2021 07:34:16 PM: INFO: ####################################################################
+02/23/2021 07:34:16 PM: INFO: TC_006_1: Cart - Delete Product Action (Regular Cart - Normal Pricing)
+02/23/2021 07:34:16 PM: INFO: #####################################################################
+02/23/2021 07:34:16 PM: INFO: ---------- Login to the application
+02/23/2021 07:34:35 PM: INFO: ---------- Create a new Proposal
+02/23/2021 07:34:45 PM: INFO: ---------- Set Proposal Fields ----------
+02/23/2021 07:35:00 PM: INFO: ---------- Configure the Proposal
+02/23/2021 07:35:07 PM: INFO: ---------- Search and add 5 Products to Cart
+02/23/2021 07:36:08 PM: INFO: ---------- Go to Shopping Cart
+02/23/2021 07:36:31 PM: INFO: ---------- Capture Grand Total and No. of line items before Delete Action
+02/23/2021 07:36:33 PM: INFO: ---------- No of roes before Delete action: 5
+02/23/2021 07:36:33 PM: INFO: ---------- Grand Total before delete action: 500.00000
+02/23/2021 07:36:49 PM: INFO: ---------- Grand Total after One Product Delete: 400.00000
+02/23/2021 07:36:49 PM: INFO: ---------- RESULTS: Grand Total after One Product Delete is correct ----------
+02/23/2021 07:36:49 PM: INFO: ---------- RESULTS: Row count after one product is deleted is correct ----------
+02/23/2021 07:36:49 PM: INFO: ---------- Delete all products and verify the no of rows and Grand Total
+02/23/2021 07:36:59 PM: INFO: ---------- Count no of rows after all lines are deleted
+02/23/2021 07:36:59 PM: INFO: ---------- Verify that after all cart lines are deleted the Grand Total section disappears
+02/23/2021 07:36:59 PM: INFO: ----------(PASSED): Grand Total after all prds deleted have disappeared ----------
+02/23/2021 07:36:59 PM: INFO: ---------- (PASSED): All products have been deleted ----------
+02/23/2021 07:36:59 PM: INFO: ---------- Abandon the Cart and delete the Proposal
+02/23/2021 07:37:17 PM: INFO: ---------- END ---------- 

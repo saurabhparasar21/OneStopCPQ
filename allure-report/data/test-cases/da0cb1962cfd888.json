@@ -1,0 +1,71 @@
+{
+  "uid" : "da0cb1962cfd888",
+  "name" : "test_PAR_Split",
+  "fullName" : "test_TC_009_TestProductAttributeRule.TestProductAttributeRule#test_PAR_Split",
+  "historyId" : "dd2bbf0a1c6a5a602c8c37b0a4de4381",
+  "time" : {
+    "start" : 1612290257573,
+    "stop" : 1612290416258,
+    "duration" : 158685
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1612290254398,
+      "stop" : 1612290257573,
+      "duration" : 3175
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Split"
+  }, {
+    "name" : "suite",
+    "value" : "test_TC_009_TestProductAttributeRule"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestProductAttributeRule"
+  }, {
+    "name" : "host",
+    "value" : "L005891"
+  }, {
+    "name" : "thread",
+    "value" : "21860-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_TC_009_TestProductAttributeRule"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "Split" ]
+  },
+  "source" : "da0cb1962cfd888.json",
+  "parameterValues" : [ ]
+}

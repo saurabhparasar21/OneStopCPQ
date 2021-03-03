@@ -1,0 +1,71 @@
+{
+  "uid" : "533a189f8e5c6719",
+  "name" : "test_ManualAdjustment_Split",
+  "fullName" : "test_TC_011_ManualAdjustments.Test_ManualAdjustments#test_ManualAdjustment_Split",
+  "historyId" : "b05fda361e3d0e6f7b77c5a05ec52021",
+  "time" : {
+    "start" : 1612292354155,
+    "stop" : 1612292674228,
+    "duration" : 320073
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1612292350927,
+      "stop" : 1612292354154,
+      "duration" : 3227
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Split"
+  }, {
+    "name" : "suite",
+    "value" : "test_TC_011_ManualAdjustments"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_ManualAdjustments"
+  }, {
+    "name" : "host",
+    "value" : "L005891"
+  }, {
+    "name" : "thread",
+    "value" : "21860-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_TC_011_ManualAdjustments"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "Split" ]
+  },
+  "source" : "533a189f8e5c6719.json",
+  "parameterValues" : [ ]
+}

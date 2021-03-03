@@ -1,0 +1,700 @@
+{
+  "aae5c8d15c91ad676f7a8487c5756a6f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e10c5019827839d0",
+      "status" : "broken",
+      "statusDetails" : "UnboundLocalError: local variable 'Result' referenced before assignment",
+      "time" : {
+        "start" : 1612292120168,
+        "stop" : 1612292350904,
+        "duration" : 230736
+      }
+    } ]
+  },
+  "c3507934368943f9073ed48afae7f672" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d9d3e429ce5f687",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"line-item-icon\">...</span> is not clickable at point (301, 190). Other element would receive the click: <div class=\"slds-spinner_container\">...</div>\n  (Session info: headless chrome=88.0.4324.104)",
+      "time" : {
+        "start" : 1612287393843,
+        "stop" : 1612287474272,
+        "duration" : 80429
+      }
+    } ]
+  },
+  "26bd7b5699cbeac9d3abd3f69d144b5a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f6e4f930fed8b579",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <input type=\"text\" ng-model=\"dynamicField.getSetModel\" class=\"dynamicform-input-item readOnlyInputStyleMaterialDesign ng-pristine ng-untouched ng-valid md-input ng-not-empty\" id=\"\" ng-disabled=\"dynamicField.IsDisabled || !dynamicField.IsEditable\" ng-model-options=\"dynamicField.modelOptions\" ng-mouseover=\"dynamicField.mouseIsOverInput=true\" ng-mouseleave=\"dynamicField.mouseIsOverInput=false\" ng-focus=\"dynamicField.mdFocus=true\" ng-blur=\"dynamicField.mdFocus = false\" ng-class=\"{'showInputonHover': (dynamicField.mouseIsOverInput || dynamicField.mdFocus) &amp;&amp; !dynamicField.isReadOnlyMode}\" aria-invalid=\"false\"> is not clickable at point (389, 190). Other element would receive the click: <div role=\"rowgroup\" class=\"ui-grid-viewport\" ng-style=\"colContainer.getViewportStyle()\" ui-grid-viewport=\"\" style=\"overflow: hidden;\">...</div>\n  (Session info: headless chrome=88.0.4324.104)",
+      "time" : {
+        "start" : 1612294077771,
+        "stop" : 1612294294661,
+        "duration" : 216890
+      }
+    } ]
+  },
+  "4b196a6543090362d5399c35d98af615" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "73dec90caea58f7d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED\n  (Session info: headless chrome=88.0.4324.104)",
+      "time" : {
+        "start" : 1612294061176,
+        "stop" : 1612294065017,
+        "duration" : 3841
+      }
+    } ]
+  },
+  "40de3035cc3924a864ba6ffe01eaf1b2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "53141f1bc58440b7",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1612338781386,
+        "stop" : 1612338993007,
+        "duration" : 211621
+      }
+    } ]
+  },
+  "dd2bbf0a1c6a5a602c8c37b0a4de4381" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "da0cb1962cfd888",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612290257573,
+        "stop" : 1612290416258,
+        "duration" : 158685
+      }
+    } ]
+  },
+  "6098b7cdb58194e16923cb248948033d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "95271fd4d2ba6eff",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1612289773428,
+        "stop" : 1612289947602,
+        "duration" : 174174
+      }
+    } ]
+  },
+  "2d21798c23dd38c261e861fa1d31d7e8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6fe1f31df4952d7d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612287137235,
+        "stop" : 1612287182387,
+        "duration" : 45152
+      }
+    } ]
+  },
+  "8b3f3fcd73075848526d865683d43da9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a76c36be5d144c69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612289262925,
+        "stop" : 1612289466995,
+        "duration" : 204070
+      }
+    } ]
+  },
+  "4cedde62d6d98eaf39235e6afc375264" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1f3d271a032dff6d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612289625267,
+        "stop" : 1612289770216,
+        "duration" : 144949
+      }
+    } ]
+  },
+  "5daa2e72950f38eff905f4f8ee1ea5b8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c8f891f4715680d1",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1612291126614,
+        "stop" : 1612291347064,
+        "duration" : 220450
+      }
+    } ]
+  },
+  "c057d220ca4b53b265b27cef82547255" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "94463a0c0b17477",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: disconnected: Unable to receive message from renderer\n  (Session info: headless chrome=88.0.4324.104)",
+      "time" : {
+        "start" : 1612292677556,
+        "stop" : 1612292730479,
+        "duration" : 52923
+      }
+    } ]
+  },
+  "3d868556886c83902598dbf795a004ae" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9f4566a2b087f5a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612289950784,
+        "stop" : 1612290092450,
+        "duration" : 141666
+      }
+    } ]
+  },
+  "22b31676d762b41d38fb976aa403e6a8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "98795cd33e702ebd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612287113516,
+        "stop" : 1612287134007,
+        "duration" : 20491
+      }
+    } ]
+  },
+  "5dda097feae86849f56fa4e554e1df57" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e443d7d59500cb50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612289051440,
+        "stop" : 1612289259810,
+        "duration" : 208370
+      }
+    } ]
+  },
+  "f99ca697d3d02a4de91247ad66558d10" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f3b1740980b973c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612287837771,
+        "stop" : 1612287966337,
+        "duration" : 128566
+      }
+    } ]
+  },
+  "f756dabc47b47358dc68a62667f152c2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9199072b9c2b015d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612287589298,
+        "stop" : 1612287709072,
+        "duration" : 119774
+      }
+    } ]
+  },
+  "9d9a27d4078d8def39b0cbc8e36d5540" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "123e5d07f871a024",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612291820343,
+        "stop" : 1612292116974,
+        "duration" : 296631
+      }
+    } ]
+  },
+  "903ff641ba723bce23c1c52f83ea435e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "578291d21a3c6429",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612338335443,
+        "stop" : 1612338535426,
+        "duration" : 199983
+      }
+    } ]
+  },
+  "b05fda361e3d0e6f7b77c5a05ec52021" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "533a189f8e5c6719",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612292354155,
+        "stop" : 1612292674228,
+        "duration" : 320073
+      }
+    } ]
+  },
+  "1a32103de3abc105f898b816fc977801" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f361b719d0909f5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612287107378,
+        "stop" : 1612287110309,
+        "duration" : 2931
+      }
+    } ]
+  },
+  "588402535756ceb13f9e060e0d86a05c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "82729695e34f7e5f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1612291437859,
+        "stop" : 1612291657182,
+        "duration" : 219323
+      }
+    } ]
+  },
+  "9bad0bb914f43a5c8e587f7c47a8027d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5b5535c2c6199be7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612287712193,
+        "stop" : 1612287834558,
+        "duration" : 122365
+      }
+    } ]
+  },
+  "799b9c7c557b3f04d3e7a8227081cfe4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a163eb1dae5eca32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612288504996,
+        "stop" : 1612288672646,
+        "duration" : 167650
+      }
+    } ]
+  },
+  "29edf047e6b0a540c768741258181e1a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8ede141d575fe971",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window\n  (Session info: headless chrome=88.0.4324.104)",
+      "time" : {
+        "start" : 1612290949082,
+        "stop" : 1612291123148,
+        "duration" : 174066
+      }
+    } ]
+  },
+  "3755d79e21efbd29986d44e604d5a658" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ba7ee756b98a42f9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1612288865345,
+        "stop" : 1612289048247,
+        "duration" : 182902
+      }
+    } ]
+  },
+  "0d978f0d8b73c15a687020af41e431e0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "90fab482ab23fbe2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612288675792,
+        "stop" : 1612288862122,
+        "duration" : 186330
+      }
+    } ]
+  },
+  "afd29a9854ee880b58d106c9c652e5cb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "70ea20cf6bd02a8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612287185519,
+        "stop" : 1612287247719,
+        "duration" : 62200
+      }
+    } ]
+  },
+  "dd2cdd685a3e571873efd60c508f9ffc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8cfc518509e86e2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612290419466,
+        "stop" : 1612290945935,
+        "duration" : 526469
+      }
+    } ]
+  },
+  "bbb83bb869bead839bd0406631914210" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d826f2b808324095",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612287250785,
+        "stop" : 1612287390717,
+        "duration" : 139932
+      }
+    } ]
+  },
+  "06a9777f6672edaf0c5142fe3448f5fe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f4055cede81fddc0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"line-item-icon\">...</span> is not clickable at point (301, 190). Other element would receive the click: <div role=\"rowgroup\" class=\"ui-grid-viewport\" ng-style=\"colContainer.getViewportStyle()\" ui-grid-viewport=\"\" style=\"overflow: hidden;\">...</div>\n  (Session info: headless chrome=88.0.4324.104)",
+      "time" : {
+        "start" : 1612287477733,
+        "stop" : 1612287586081,
+        "duration" : 108348
+      }
+    } ]
+  },
+  "b7ff2d7c0b8e1cfbb74f7f05bb7a4fc1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "42435951c9e3cd3e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id",
+      "time" : {
+        "start" : 1612291660463,
+        "stop" : 1612291817033,
+        "duration" : 156570
+      }
+    } ]
+  },
+  "fea04941b873ee965d4288cfc6166287" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2cf67279789c9bda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612290095644,
+        "stop" : 1612290254392,
+        "duration" : 158748
+      }
+    } ]
+  },
+  "928b3d5a236bc60258e1ffb20e115ee3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "23ff086e4d35190e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612338538854,
+        "stop" : 1612338777955,
+        "duration" : 239101
+      }
+    } ]
+  },
+  "cf917f91a42e0860ec95a66567d63e65" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "76dbb0903d1ade80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612289470202,
+        "stop" : 1612289622030,
+        "duration" : 151828
+      }
+    } ]
+  },
+  "a0968881bcc85bb69e4c8552c4644f96" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6a4831e8fae95c71",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//md-dialog[contains(@aria-label,'The request')]//button[contains(text(),'OK')]\"}\n  (Session info: headless chrome=88.0.4324.104)",
+      "time" : {
+        "start" : 1612291350307,
+        "stop" : 1612291434562,
+        "duration" : 84255
+      }
+    } ]
+  }
+}

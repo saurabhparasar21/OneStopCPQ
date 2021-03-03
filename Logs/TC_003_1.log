@@ -1,0 +1,14 @@
+02/23/2021 02:43:22 PM: INFO: #################################################################
+02/23/2021 02:43:22 PM: INFO:     TC_003_1: MultipleAdjustment (Regular Cart - Normal Pricing)   
+02/23/2021 02:43:22 PM: INFO: #################################################################
+02/23/2021 02:43:24 PM: INFO: ---------- Login to the Application
+02/23/2021 02:43:38 PM: INFO: ---------- Create a new Proposal
+02/23/2021 02:44:04 PM: INFO: ---------- Set Proposal Fields
+02/23/2021 02:44:19 PM: INFO: ---------- Configure the Proposal
+02/23/2021 02:44:48 PM: INFO: ---------- Go to Shopping Cart
+02/23/2021 02:45:15 PM: INFO: ---------- Click on Multiple Adjustment Button
+02/23/2021 02:45:18 PM: INFO: ---------- Add 2 Adjs in Mul Adj Pop-up and click on Save
+02/23/2021 02:45:56 PM: INFO: ---------- Expected Grand Total: 72
+02/23/2021 02:45:56 PM: INFO: ---------- Actual Grand Total: USD 72.00000
+02/23/2021 02:45:56 PM: INFO: ---------- (PASSED): Grand Total after multiple adjustments is correct
+02/23/2021 02:45:56 PM: INFO: ---------- END ----------

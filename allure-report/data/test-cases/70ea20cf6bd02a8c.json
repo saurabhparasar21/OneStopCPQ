@@ -1,0 +1,80 @@
+{
+  "uid" : "70ea20cf6bd02a8c",
+  "name" : "test_CreateDirectProposal",
+  "fullName" : "test_TC_002_ProposalCreation.Test_CreateProposal#test_CreateDirectProposal",
+  "historyId" : "afd29a9854ee880b58d106c9c652e5cb",
+  "time" : {
+    "start" : 1612287185519,
+    "stop" : 1612287247719,
+    "duration" : 62200
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1612287182392,
+      "stop" : 1612287185519,
+      "duration" : 3127
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "RegularPricing"
+  }, {
+    "name" : "suite",
+    "value" : "test_TC_002_ProposalCreation"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_CreateProposal"
+  }, {
+    "name" : "host",
+    "value" : "L005891"
+  }, {
+    "name" : "thread",
+    "value" : "21860-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_TC_002_ProposalCreation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1ffcdff651acaff2",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1612286734194,
+        "stop" : 1612286800236,
+        "duration" : 66042
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "RegularPricing" ]
+  },
+  "source" : "70ea20cf6bd02a8c.json",
+  "parameterValues" : [ ]
+}

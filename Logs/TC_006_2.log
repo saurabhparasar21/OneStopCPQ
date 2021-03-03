@@ -1,0 +1,24 @@
+02/23/2021 07:37:21 PM: INFO: #####################################################################
+02/23/2021 07:37:21 PM: INFO:  TC_006_2: Cart - Delete Product Action Split Cart Async Pricing     
+02/23/2021 07:37:21 PM: INFO: #####################################################################
+02/23/2021 07:37:21 PM: INFO: ---------- Login to the application
+02/23/2021 07:37:38 PM: INFO: ---------- Create a new Proposal
+02/23/2021 07:37:48 PM: INFO: ---------- Set Proposal Fields ----------
+02/23/2021 07:38:09 PM: INFO: ---------- Configure the Proposal
+02/23/2021 07:38:16 PM: INFO: ---------- Search and add 5 Products to Cart
+02/23/2021 07:39:18 PM: INFO: ---------- Click on Mini-Cart & then View Cart button
+02/23/2021 07:39:21 PM: INFO: ---------- Click on Submit for Pricing (Async) button
+02/23/2021 07:39:54 PM: INFO: ---------- Capture Grand Total and No. of line items before Mass Update Action
+02/23/2021 07:39:56 PM: INFO: ---------- No of rows before Delete action: 5
+02/23/2021 07:39:56 PM: INFO: ---------- Grand Total before delete action: 500.00000
+02/23/2021 07:39:56 PM: INFO: ---------- Select One Product. Delete it and then verify the Grand Total
+02/23/2021 07:40:21 PM: INFO: ---------- Capture Grand Total and No. of line items After One prod is Deleted
+02/23/2021 07:40:23 PM: INFO: ---------- Grand Total after One Product Delete: 400.00000
+02/23/2021 07:40:23 PM: INFO: ---------- Expected Grand Total after one pro is deleted: 400
+02/23/2021 07:40:23 PM: INFO: ---------- (PASSED): Grand Total after One Product Delete is correct ----------
+02/23/2021 07:40:23 PM: INFO: ---------- (PASSED): Row count after one product is deleted is correct ----------
+02/23/2021 07:40:23 PM: INFO: ---------- Delete all products and verify the no of rows and Grand Total
+02/23/2021 07:40:26 PM: INFO: ---------- Count no of rows after all lines are deleted
+02/23/2021 07:40:26 PM: INFO: ---------- (PASSED): All products have been deleted ----------
+02/23/2021 07:40:26 PM: INFO: ---------- Abandon the Cart and delete it
+02/23/2021 07:40:44 PM: INFO: ---------- END ----------

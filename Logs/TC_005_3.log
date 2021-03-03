@@ -1,0 +1,17 @@
+02/23/2021 07:27:03 PM: INFO: #################################################################
+02/23/2021 07:27:03 PM: INFO: TC_005_3: Cart - Mass Update Action (Normal Cart - Turbo Pricing)  
+02/23/2021 07:27:03 PM: INFO: #################################################################
+02/23/2021 07:27:03 PM: INFO: ---------- Login to the application
+02/23/2021 07:27:21 PM: INFO: ---------- Create a new Proposal
+02/23/2021 07:27:31 PM: INFO: ---------- Set Proposal Fields ----------
+02/23/2021 07:27:53 PM: INFO: ---------- Configure the Proposal
+02/23/2021 07:28:00 PM: INFO: ---------- Search and add 5 Products to Cart
+02/23/2021 07:29:02 PM: INFO: ---------- Go to Shopping Cart
+02/23/2021 07:29:30 PM: INFO: ---------- Capture Grand Total and No. of line items before Copy Action
+02/23/2021 07:29:33 PM: INFO: ---------- Grand Total Before Mass Update: 500.00000
+02/23/2021 07:29:33 PM: INFO: ---------- Select all check boxes and then Click on Mass Update action
+02/23/2021 07:29:36 PM: INFO: ---------- Set Quantity, Adjustments in Mass Update Pop-up
+02/23/2021 07:29:55 PM: INFO: ---------- Capture Grand Total and No. of line items After Mass Update Action
+02/23/2021 07:29:57 PM: INFO: ---------- Grand Total after Mass Update: 2,250.00000
+02/23/2021 07:29:57 PM: INFO: ---------- (PASSED): Grand Total after Mass Update action is correct ----------
+02/23/2021 07:30:14 PM: INFO: ---------- END ---------- 

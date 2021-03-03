@@ -1,0 +1,71 @@
+{
+  "uid" : "8cfc518509e86e2b",
+  "name" : "test_PAR_Turbo",
+  "fullName" : "test_TC_009_TestProductAttributeRule.TestProductAttributeRule#test_PAR_Turbo",
+  "historyId" : "dd2cdd685a3e571873efd60c508f9ffc",
+  "time" : {
+    "start" : 1612290419466,
+    "stop" : 1612290945935,
+    "duration" : 526469
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1612290416264,
+      "stop" : 1612290419465,
+      "duration" : 3201
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "TurboPricing"
+  }, {
+    "name" : "suite",
+    "value" : "test_TC_009_TestProductAttributeRule"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestProductAttributeRule"
+  }, {
+    "name" : "host",
+    "value" : "L005891"
+  }, {
+    "name" : "thread",
+    "value" : "21860-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_TC_009_TestProductAttributeRule"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "TurboPricing" ]
+  },
+  "source" : "8cfc518509e86e2b.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,71 @@
+{
+  "uid" : "a163eb1dae5eca32",
+  "name" : "test_DeleteProductAction_Classic",
+  "fullName" : "test_TC_006_TestDeletePrdOnCart.Test_CartDeletePrdAction#test_DeleteProductAction_Classic",
+  "historyId" : "799b9c7c557b3f04d3e7a8227081cfe4",
+  "time" : {
+    "start" : 1612288504996,
+    "stop" : 1612288672646,
+    "duration" : 167650
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1612288501861,
+      "stop" : 1612288504995,
+      "duration" : 3134
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "RegularPricing"
+  }, {
+    "name" : "suite",
+    "value" : "test_TC_006_TestDeletePrdOnCart"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_CartDeletePrdAction"
+  }, {
+    "name" : "host",
+    "value" : "L005891"
+  }, {
+    "name" : "thread",
+    "value" : "21860-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_TC_006_TestDeletePrdOnCart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "RegularPricing" ]
+  },
+  "source" : "a163eb1dae5eca32.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,71 @@
+{
+  "uid" : "5b5535c2c6199be7",
+  "name" : "test_CartCopyAction_Split",
+  "fullName" : "test_TC_004_TestCopyActionOnCart.Test_CartCopyAction#test_CartCopyAction_Split",
+  "historyId" : "9bad0bb914f43a5c8e587f7c47a8027d",
+  "time" : {
+    "start" : 1612287712193,
+    "stop" : 1612287834558,
+    "duration" : 122365
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1612287709078,
+      "stop" : 1612287712193,
+      "duration" : 3115
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Split"
+  }, {
+    "name" : "suite",
+    "value" : "test_TC_004_TestCopyActionOnCart"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_CartCopyAction"
+  }, {
+    "name" : "host",
+    "value" : "L005891"
+  }, {
+    "name" : "thread",
+    "value" : "21860-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_TC_004_TestCopyActionOnCart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "Split" ]
+  },
+  "source" : "5b5535c2c6199be7.json",
+  "parameterValues" : [ ]
+}

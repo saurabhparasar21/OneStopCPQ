@@ -1,0 +1,16 @@
+02/23/2021 03:08:04 PM: INFO: #################################################################
+02/23/2021 03:08:04 PM: INFO:     TC_003_2: MultipleAdjustment (Regular Cart - Turbo Pricing)    
+02/23/2021 03:08:04 PM: INFO: #################################################################
+02/23/2021 03:08:29 PM: INFO: ---------- Create a new Proposal
+02/23/2021 03:08:40 PM: INFO: ---------- Set Proposal Fields
+02/23/2021 03:08:55 PM: INFO: ---------- Configure the Proposal
+02/23/2021 03:09:02 PM: INFO: ---------- Search and add Product to Cart
+02/23/2021 03:10:44 PM: INFO: ---------- Go to Shopping Cart
+02/23/2021 03:11:12 PM: INFO: ---------- Click on Multiple Adjustment Button
+02/23/2021 03:11:47 PM: INFO: ---------- Add 2 Adjs in Multiple Adj pop-up and click on Save
+02/23/2021 03:12:10 PM: INFO: ---------- Capture th Grand Total and verify with the expected data
+02/23/2021 03:12:10 PM: INFO: ---------- Expected Grand Total: 72
+02/23/2021 03:12:10 PM: INFO: ---------- Actual Grand Total: USD 100.00000
+02/23/2021 03:12:10 PM: INFO: ---------- (FAILED): Grand Total after multiple adjustments is not correct **********
+02/23/2021 03:12:10 PM: INFO: ---------- (FAILED): (NOT SUPPORTED) Turbo Pricing
+02/23/2021 03:12:10 PM: INFO: ---------- END ----------

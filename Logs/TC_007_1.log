@@ -1,0 +1,33 @@
+02/24/2021 12:14:45 PM: INFO: #################################################################
+02/24/2021 12:14:45 PM: INFO:         TC_007_1: Save As Fav (Regular Cart Normal Pricing         
+02/24/2021 12:14:45 PM: INFO: #################################################################
+02/24/2021 12:14:45 PM: INFO: ---------- Login to the Application
+02/24/2021 12:15:08 PM: INFO: ---------- Switch to Lightning if not set
+02/24/2021 12:15:26 PM: INFO: ---------- Create a new Proposal
+02/24/2021 12:15:36 PM: INFO: ---------- Set Proposal Fields
+02/24/2021 12:15:51 PM: INFO: ---------- Configure the Proposal
+02/24/2021 12:15:55 PM: INFO: ---------- Search and add Product to the Cart
+02/24/2021 12:16:29 PM: INFO: ---------- Go to Shopping Cart
+02/24/2021 12:16:53 PM: INFO: ---------- Click on Net Adj link for the Product
+02/24/2021 12:16:58 PM: INFO: ---------- Set Adjustments in Net Adj Popup and Click on Save
+02/24/2021 12:17:08 PM: INFO: ---------- Click on Reprice button
+02/24/2021 12:17:23 PM: INFO: ---------- Select the Prd and click on Save as Fav icon
+02/24/2021 12:17:23 PM: INFO: ---------- Set fields in Favorite Pop-up and Save it
+02/24/2021 12:17:33 PM: INFO: ---------- Delete the Product from Cart
+02/24/2021 12:17:43 PM: INFO: ---------- Go back to Catalog Page
+02/24/2021 12:17:44 PM: INFO: ---------- Click on Fav Icon
+02/24/2021 12:17:44 PM: INFO: ---------- Search for the desired Favorite
+02/24/2021 12:17:48 PM: INFO: ---------- Go to Shopping Cart
+02/24/2021 12:18:13 PM: INFO: ---------- Grand Total of Added Favorite record is : 90.00000
+02/24/2021 12:18:13 PM: INFO: ---------- (PASSED): Grand Total of added Favorite (With Adjustment) is correct ----------
+02/24/2021 12:18:13 PM: INFO: ---------- Delete the Product from Cart
+02/24/2021 12:18:24 PM: INFO: ---------- Go back to Catalog Page
+02/24/2021 12:18:24 PM: INFO: ---------- Click on Fav Icon
+02/24/2021 12:18:24 PM: INFO: ---------- Search and add Favorite with out Adjustment
+02/24/2021 12:18:30 PM: INFO: ---------- Go to Shopping Cart
+02/24/2021 12:18:55 PM: INFO: ---------- Grand Total of Added Favorite (With out Adjustment) is : 100.00000
+02/24/2021 12:18:55 PM: INFO: ---------- (PASSED): Grand Total of added Favorite (with out adjustment) is correct ----------
+02/24/2021 12:18:55 PM: INFO: ---------- Go back to Catalog page and delete the Fav
+02/24/2021 12:18:56 PM: INFO: ---------- Click on Fav Icon
+02/24/2021 12:18:56 PM: INFO: ---------- Search and Delete the Favorite
+02/24/2021 12:19:19 PM: INFO: ---------- END ---------- 

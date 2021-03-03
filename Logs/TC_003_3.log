@@ -1,0 +1,15 @@
+02/23/2021 03:55:41 PM: INFO: #################################################################
+02/23/2021 03:55:41 PM: INFO:     TC_003_3: MultipleAdjustment Split Cart - Async Pricing      
+02/23/2021 03:55:41 PM: INFO: #################################################################
+02/23/2021 03:56:04 PM: INFO: ---------- Create a new Proposal
+02/23/2021 03:56:15 PM: INFO: ---------- Set Proposal Fields ----------
+02/23/2021 03:56:36 PM: INFO: ---------- Configure the Proposal
+02/23/2021 03:56:44 PM: INFO: ---------- Search and add Product to Cart
+02/23/2021 03:57:16 PM: INFO: ---------- Click on Submit for Pricing (Async) button
+02/23/2021 03:57:32 PM: INFO: ---------- Click on 3 dots buttons
+02/23/2021 03:57:38 PM: INFO: ---------- Click on Multiple Adjustment Button
+02/23/2021 03:57:49 PM: INFO: ---------- Click Save button after adding 2 adjustment lines
+02/23/2021 03:57:49 PM: INFO: ---------- Click on Submit for Pricing (Async) to calculate Total based on mul adjs
+02/23/2021 03:57:59 PM: INFO: ---------- Expected total is: 72
+02/23/2021 03:57:59 PM: INFO: ---------- Actual total is: USD 72.00000
+02/23/2021 03:57:59 PM: INFO: ---------- (PASSED): Grand Total after multiple adjustments is correct **********

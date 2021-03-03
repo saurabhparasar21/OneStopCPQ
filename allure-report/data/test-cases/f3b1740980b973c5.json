@@ -1,0 +1,71 @@
+{
+  "uid" : "f3b1740980b973c5",
+  "name" : "test_CartCopyAction_Turbo",
+  "fullName" : "test_TC_004_TestCopyActionOnCart.Test_CartCopyAction#test_CartCopyAction_Turbo",
+  "historyId" : "f99ca697d3d02a4de91247ad66558d10",
+  "time" : {
+    "start" : 1612287837771,
+    "stop" : 1612287966337,
+    "duration" : 128566
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1612287834567,
+      "stop" : 1612287837770,
+      "duration" : 3203
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "TurboPricing"
+  }, {
+    "name" : "suite",
+    "value" : "test_TC_004_TestCopyActionOnCart"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_CartCopyAction"
+  }, {
+    "name" : "host",
+    "value" : "L005891"
+  }, {
+    "name" : "thread",
+    "value" : "21860-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_TC_004_TestCopyActionOnCart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "TurboPricing" ]
+  },
+  "source" : "f3b1740980b973c5.json",
+  "parameterValues" : [ ]
+}

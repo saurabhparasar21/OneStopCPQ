@@ -1,0 +1,71 @@
+{
+  "uid" : "9f4566a2b087f5a6",
+  "name" : "test_CustomCartView_Split",
+  "fullName" : "test_TC_008_TestCustomView.TestCustomCartView#test_CustomCartView_Split",
+  "historyId" : "3d868556886c83902598dbf795a004ae",
+  "time" : {
+    "start" : 1612289950784,
+    "stop" : 1612290092450,
+    "duration" : 141666
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1612289947635,
+      "stop" : 1612289950783,
+      "duration" : 3148
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Split"
+  }, {
+    "name" : "suite",
+    "value" : "test_TC_008_TestCustomView"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCustomCartView"
+  }, {
+    "name" : "host",
+    "value" : "L005891"
+  }, {
+    "name" : "thread",
+    "value" : "21860-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_TC_008_TestCustomView"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "Split" ]
+  },
+  "source" : "9f4566a2b087f5a6.json",
+  "parameterValues" : [ ]
+}

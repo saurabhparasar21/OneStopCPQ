@@ -1,0 +1,19 @@
+02/25/2021 07:09:01 PM: INFO: #################################################################
+02/25/2021 07:09:01 PM: INFO:     TC_008_2: Custom Cart View (Regular Cart Turbo Pricing)      
+02/25/2021 07:09:01 PM: INFO: #################################################################
+02/25/2021 07:09:01 PM: INFO: ---------- Login to the Application
+02/25/2021 07:09:19 PM: INFO: ---------- Switch to Lightning if not set
+02/25/2021 07:09:19 PM: INFO: ---------- Create a new Proposal
+02/25/2021 07:09:32 PM: INFO: ---------- Set Proposal Fields
+02/25/2021 07:09:45 PM: INFO: ---------- Configure the Proposal
+02/25/2021 07:09:47 PM: INFO: ---------- Search and add Product to the Cart
+02/25/2021 07:10:11 PM: INFO: ---------- Go to Shopping Cart
+02/25/2021 07:10:38 PM: INFO: ---------- Create a new Custom View
+02/25/2021 07:10:50 PM: INFO: ---------- Check the Group Name
+02/25/2021 07:10:50 PM: INFO: ---------- (PASSED) Custom Cart View Group is Correct
+02/25/2021 07:10:50 PM: INFO: ---------- Expand the Group and set Is Optional Checkbox
+02/25/2021 07:11:14 PM: INFO: ---------- Check the Group Name
+02/25/2021 07:11:14 PM: INFO: ---------- (PASSED) Custom Cart View Group Name is updated correctly
+02/25/2021 07:11:14 PM: INFO: ---------- Delete the View
+02/25/2021 07:11:15 PM: INFO: ---------- Abandon the Cart and delete the proposal
+02/25/2021 07:11:39 PM: INFO: ---------- END ---------- 

@@ -1,0 +1,71 @@
+{
+  "uid" : "41e12fa176f6f394",
+  "name" : "test_MassUpdateAction_Turbo",
+  "fullName" : "test_TC_005_TestMassUpdateOnCart.Test_CartMassUpdate#test_MassUpdateAction_Turbo",
+  "historyId" : "40de3035cc3924a864ba6ffe01eaf1b2",
+  "time" : {
+    "start" : 1612288306509,
+    "stop" : 1612288501827,
+    "duration" : 195318
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+  "statusTrace" : "self = <TestCases.test_TC_005_TestMassUpdateOnCart.Test_CartMassUpdate object at 0x000002A2991EB130>\nsetup = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"47384617ddd8415c1f2d4bbd9ba30274\")>\n\n    @pytest.mark.TurboPricing\n    def test_MassUpdateAction_Turbo(self, setup):\n        # Step:03 Set up Logger Object\n        self.lgrObj = Logger.logGen('TC_005_3')\n        self.lgrObj.info(\"#################################################################\")\n        self.lgrObj.info(\"TC_005_3: Cart - Mass Update Action (Normal Cart - Turbo Pricing)  \")\n        self.lgrObj.info(\"#################################################################\")\n    \n        self.driver = setup\n        self.lgrObj.info(\"---------- Login to the application\")\n        # Set up Object for Login Page Object # Set User Name, Password\n        self.driver.get(self.baseUrl)\n        self.lgnObj = loginPage(self.driver)\n        self.lgnObj.setUsername(self.UserName)\n        self.lgnObj.setPassword(self.Password)\n        self.lgnObj.clickLoginButton()\n        self.driver.maximize_window()\n    \n        # Switch to Lightning\n        hmpageObj = HomePage(self.driver)\n        hmpageObj.switchToLightning()\n        self.lgrObj.info(\"---------- Create a new Proposal\")\n        hmpageObj.ClickSearchAppsIcon()\n        # td_AppToSearchSelect=\n        appToSearchFor = XLUtils.readData(self.file, 'TC_005', 2, 2)\n        hmpageObj.SearchAndClickApp(appToSearchFor)\n        # Set up Object for Proposal Tab Page object class\n        PropsPageObj = ProposalDetailPage(self.driver)\n    \n        # Click on New button to go to Create Proposal Edit page\n        PropsPageObj.ClickProposalPageButton('New')\n        # CLick Next in the Record Type Dialog Box\n        PropsPageObj.DialogAcceptOrCancel('Next')\n    \n        self.lgrObj.info(\"---------- Set Proposal Fields ----------\")\n        # Set QTC Profile\n        PropsPageObj.SetProposalField('QTC Profile', 'Regular')\n        # Proposal Name\n        label = XLUtils.readData(self.file, 'TC_005', 1, 3)\n        value = XLUtils.readData(self.file, 'TC_005', 2, 3)\n        PropsPageObj.SetProposalField(label, value)\n    \n        # Price List\n        label = XLUtils.readData(self.file, 'TC_005', 1, 4)\n        value = XLUtils.readData(self.file, 'TC_005', 2, 4)\n        PropsPageObj.SetProposalField(label, value)\n    \n        # Opportunity\n        label = XLUtils.readData(self.file, 'TC_005', 1, 5)\n        value = XLUtils.readData(self.file, 'TC_005', 2, 5)\n        PropsPageObj.SetProposalField(label, value)\n    \n        # Account\n        label = XLUtils.readData(self.file, 'TC_005', 1, 6)\n        value = XLUtils.readData(self.file, 'TC_005', 2, 6)\n        PropsPageObj.SetProposalField(label, value)\n    \n        # Click on Save button\n        PropsPageObj.ClickProposalPageButton('Save')\n    \n        self.lgrObj.info(\"---------- Configure the Proposal\")\n        PropsPageObj.ClickConfigureProductButton('MN - 2020 (Turbo)')\n        time.sleep(4)\n    \n        CtlgPgObj = CatalogPage(self.driver)\n        self.lgrObj.info(\"---------- Search and add 5 Products to Cart\")\n        PrdName1 = XLUtils.readData(self.file, 'TC_005', 2, 8)\n        PrdName2 = XLUtils.readData(self.file, 'TC_005', 3, 8)\n        PrdName3 = XLUtils.readData(self.file, 'TC_005', 4, 8)\n        PrdName4 = XLUtils.readData(self.file, 'TC_005', 5, 8)\n        PrdName5 = XLUtils.readData(self.file, 'TC_005', 6, 8)\n    \n        HomePage.SwitchToFrame(self)\n        CtlgPgObj.SearchAndAddProduct('View Cart', PrdName1)\n        CtlgPgObj.SearchAndAddProduct('View Cart', PrdName2)\n        CtlgPgObj.SearchAndAddProduct('View Cart', PrdName3)\n        CtlgPgObj.SearchAndAddProduct('View Cart', PrdName4)\n        CtlgPgObj.SearchAndAddProduct('View Cart', PrdName5)\n    \n        self.lgrObj.info(\"---------- Go to Shopping Cart\")\n        CtlgPgObj.ClickCatalogPageButton('Go to Pricing')\n        # Set up Object for Cart Page\n        CartPgObj = CartPage(self.driver)\n        CartPgObj.WaitForPricingProgressBarToFinish()\n        time.sleep(5)\n    \n        self.lgrObj.info(\"---------- Capture Grand Total and No. of line items before Copy Action\")\n>       grandTotalBeforeMassUpdate = CartPgObj.GetValueOfTotal('Grand Total')\n\nTestCases\\test_TC_005_TestMassUpdateOnCart.py:386: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\npageObjects\\CartPage.py:20: in GetValueOfTotal\n    eleTotal = WebDriverWait(self.driver, 60).until(EC.presence_of_element_located((By.XPATH, Total)))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"47384617ddd8415c1f2d4bbd9ba30274\")>\nmethod = <selenium.webdriver.support.expected_conditions.presence_of_element_located object at 0x000002A29927C160>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\n..\\..\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1612288303323,
+      "stop" : 1612288306508,
+      "duration" : 3185
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "TurboPricing"
+  }, {
+    "name" : "suite",
+    "value" : "test_TC_005_TestMassUpdateOnCart"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_CartMassUpdate"
+  }, {
+    "name" : "host",
+    "value" : "L005891"
+  }, {
+    "name" : "thread",
+    "value" : "21860-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_TC_005_TestMassUpdateOnCart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "TurboPricing" ]
+  },
+  "source" : "41e12fa176f6f394.json",
+  "parameterValues" : [ ]
+}

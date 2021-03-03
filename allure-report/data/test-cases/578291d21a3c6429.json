@@ -1,0 +1,88 @@
+{
+  "uid" : "578291d21a3c6429",
+  "name" : "test_MassUpdateAction_Classic",
+  "fullName" : "test_TC_005_TestMassUpdateOnCart.Test_CartMassUpdate#test_MassUpdateAction_Classic",
+  "historyId" : "903ff641ba723bce23c1c52f83ea435e",
+  "time" : {
+    "start" : 1612338335443,
+    "stop" : 1612338535426,
+    "duration" : 199983
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1612338331430,
+      "stop" : 1612338335440,
+      "duration" : 4010
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "RegularPricing"
+  }, {
+    "name" : "suite",
+    "value" : "test_TC_005_TestMassUpdateOnCart"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_CartMassUpdate"
+  }, {
+    "name" : "host",
+    "value" : "L005891"
+  }, {
+    "name" : "thread",
+    "value" : "16948-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_TC_005_TestMassUpdateOnCart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fb23cefb81fdde5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1612323172406,
+        "stop" : 1612323443378,
+        "duration" : 270972
+      }
+    }, {
+      "uid" : "38ce4aea0dfd5d92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612287969488,
+        "stop" : 1612288127251,
+        "duration" : 157763
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "RegularPricing" ]
+  },
+  "source" : "578291d21a3c6429.json",
+  "parameterValues" : [ ]
+}

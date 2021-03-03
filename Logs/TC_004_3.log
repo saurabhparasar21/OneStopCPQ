@@ -1,0 +1,19 @@
+02/23/2021 06:01:16 PM: INFO: #################################################################
+02/23/2021 06:01:16 PM: INFO:     TC_004_3: Cart - Copy Action (Normal Cart - Turbo Pricing)     
+02/23/2021 06:01:16 PM: INFO: #################################################################
+02/23/2021 06:01:16 PM: INFO: ---------- Login to the application
+02/23/2021 06:01:42 PM: INFO: ---------- Create a new Proposal
+02/23/2021 06:01:53 PM: INFO: ---------- Set Proposal Fields
+02/23/2021 06:02:11 PM: INFO: ---------- Configure the Proposal
+02/23/2021 06:02:18 PM: INFO: ---------- Search and add Product to Cart
+02/23/2021 06:02:36 PM: INFO: ---------- Go to Shopping Cart
+02/23/2021 06:02:55 PM: INFO: ---------- Capture Grand Total and No. of line items before Copy Action
+02/23/2021 06:02:57 PM: INFO: ---------- Grand Total Before Copy: 100.00000
+02/23/2021 06:02:57 PM: INFO: ---------- No. of Rows Before Copy: 1
+02/23/2021 06:02:57 PM: INFO: ---------- Select the Product Checkbox and click on Copy button
+02/23/2021 06:03:22 PM: INFO: ---------- Capture Grand Total and No. of line items After Copy Action
+02/23/2021 06:03:24 PM: INFO: ---------- Grand Total after copy is: 200.00000
+02/23/2021 06:03:24 PM: INFO: ---------- No of rows after copy is: 2
+02/23/2021 06:03:24 PM: INFO: ---------- (PASSED): Cart Line Item is copied successfully ----------
+02/23/2021 06:03:24 PM: INFO: ---------- (PASSED): Grand Total after copy action is correct ----------
+02/23/2021 06:03:46 PM: INFO: ---------- End ----------

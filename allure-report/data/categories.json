@@ -1,0 +1,239 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"line-item-icon\">...</span> is not clickable at point (301, 190). Other element would receive the click: <div class=\"slds-spinner_container\">...</div>\n  (Session info: headless chrome=88.0.4324.104)",
+      "children" : [ {
+        "name" : "test_MultipleAdjustment_Turbo",
+        "uid" : "d9d3e429ce5f687",
+        "parentUid" : "d2337af69b3f6f95f383f6cc740bb67e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1612287393843,
+          "stop" : 1612287474272,
+          "duration" : 80429
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d2337af69b3f6f95f383f6cc740bb67e"
+    }, {
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span class=\"line-item-icon\">...</span> is not clickable at point (301, 190). Other element would receive the click: <div role=\"rowgroup\" class=\"ui-grid-viewport\" ng-style=\"colContainer.getViewportStyle()\" ui-grid-viewport=\"\" style=\"overflow: hidden;\">...</div>\n  (Session info: headless chrome=88.0.4324.104)",
+      "children" : [ {
+        "name" : "test_MultipleAdjustment_Split",
+        "uid" : "f4055cede81fddc0",
+        "parentUid" : "a13337649c8c76280d85a60c01124500",
+        "status" : "broken",
+        "time" : {
+          "start" : 1612287477733,
+          "stop" : 1612287586081,
+          "duration" : 108348
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a13337649c8c76280d85a60c01124500"
+    }, {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "test_DeleteProductAction_Turbo",
+        "uid" : "ba7ee756b98a42f9",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1612288865345,
+          "stop" : 1612289048247,
+          "duration" : 182902
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_CustomCartView_Turbo",
+        "uid" : "95271fd4d2ba6eff",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1612289773428,
+          "stop" : 1612289947602,
+          "duration" : 174174
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_MassUpdateAction_Turbo",
+        "uid" : "53141f1bc58440b7",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1612338781386,
+          "stop" : 1612338993007,
+          "duration" : 211621
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window\n  (Session info: headless chrome=88.0.4324.104)",
+      "children" : [ {
+        "name" : "test_Prop2Agrmnt_Classic",
+        "uid" : "8ede141d575fe971",
+        "parentUid" : "901e5ac297b02c92cfe46c045c6fe71c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1612290949082,
+          "stop" : 1612291123148,
+          "duration" : 174066
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "901e5ac297b02c92cfe46c045c6fe71c"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//md-dialog[contains(@aria-label,'The request')]//button[contains(text(),'OK')]\"}\n  (Session info: headless chrome=88.0.4324.104)",
+      "children" : [ {
+        "name" : "test_Prop2Agrmnt_Split",
+        "uid" : "6a4831e8fae95c71",
+        "parentUid" : "7c3816193d706996bdcd7d894e43670e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1612291350307,
+          "stop" : 1612291434562,
+          "duration" : 84255
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7c3816193d706996bdcd7d894e43670e"
+    }, {
+      "name" : "selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id",
+      "children" : [ {
+        "name" : "test_Prop2Agrmnt_EnterpriseTurbo",
+        "uid" : "42435951c9e3cd3e",
+        "parentUid" : "04e0e10128006169cbbb0fa535941c37",
+        "status" : "broken",
+        "time" : {
+          "start" : 1612291660463,
+          "stop" : 1612291817033,
+          "duration" : 156570
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "04e0e10128006169cbbb0fa535941c37"
+    }, {
+      "name" : "UnboundLocalError: local variable 'Result' referenced before assignment",
+      "children" : [ {
+        "name" : "test_ManualAdjustment_Turbo",
+        "uid" : "e10c5019827839d0",
+        "parentUid" : "9019d0215fdab002f673de65caaa7b4a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1612292120168,
+          "stop" : 1612292350904,
+          "duration" : 230736
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9019d0215fdab002f673de65caaa7b4a"
+    }, {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: disconnected: Unable to receive message from renderer\n  (Session info: headless chrome=88.0.4324.104)",
+      "children" : [ {
+        "name" : "test_Approval_Classic",
+        "uid" : "94463a0c0b17477",
+        "parentUid" : "83960ee7ddc52f8ddc6de3bbe97667c2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1612292677556,
+          "stop" : 1612292730479,
+          "duration" : 52923
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "83960ee7ddc52f8ddc6de3bbe97667c2"
+    }, {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED\n  (Session info: headless chrome=88.0.4324.104)",
+      "children" : [ {
+        "name" : "test_Approval_Turbo",
+        "uid" : "73dec90caea58f7d",
+        "parentUid" : "327d1942d4b41a04a9a3d11eb9545d9c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1612294061176,
+          "stop" : 1612294065017,
+          "duration" : 3841
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "327d1942d4b41a04a9a3d11eb9545d9c"
+    }, {
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <input type=\"text\" ng-model=\"dynamicField.getSetModel\" class=\"dynamicform-input-item readOnlyInputStyleMaterialDesign ng-pristine ng-untouched ng-valid md-input ng-not-empty\" id=\"\" ng-disabled=\"dynamicField.IsDisabled || !dynamicField.IsEditable\" ng-model-options=\"dynamicField.modelOptions\" ng-mouseover=\"dynamicField.mouseIsOverInput=true\" ng-mouseleave=\"dynamicField.mouseIsOverInput=false\" ng-focus=\"dynamicField.mdFocus=true\" ng-blur=\"dynamicField.mdFocus = false\" ng-class=\"{'showInputonHover': (dynamicField.mouseIsOverInput || dynamicField.mdFocus) &amp;&amp; !dynamicField.isReadOnlyMode}\" aria-invalid=\"false\"> is not clickable at point (389, 190). Other element would receive the click: <div role=\"rowgroup\" class=\"ui-grid-viewport\" ng-style=\"colContainer.getViewportStyle()\" ui-grid-viewport=\"\" style=\"overflow: hidden;\">...</div>\n  (Session info: headless chrome=88.0.4324.104)",
+      "children" : [ {
+        "name" : "test_Approval_Split",
+        "uid" : "f6e4f930fed8b579",
+        "parentUid" : "51d8b00779f67725652cfa3e47d5d85e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1612294077771,
+          "stop" : 1612294294661,
+          "duration" : 216890
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "51d8b00779f67725652cfa3e47d5d85e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert False",
+      "children" : [ {
+        "name" : "test_Prop2Agrmnt_Turbo",
+        "uid" : "c8f891f4715680d1",
+        "parentUid" : "8d89788b03808d3beec6ddf8e7d75f3d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1612291126614,
+          "stop" : 1612291347064,
+          "duration" : 220450
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_Prop2Agrmnt_EnterpriseClassic",
+        "uid" : "82729695e34f7e5f",
+        "parentUid" : "8d89788b03808d3beec6ddf8e7d75f3d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1612291437859,
+          "stop" : 1612291657182,
+          "duration" : 219323
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8d89788b03808d3beec6ddf8e7d75f3d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

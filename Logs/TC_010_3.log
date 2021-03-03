@@ -1,0 +1,21 @@
+02/28/2021 02:30:13 PM: INFO: #################################################################
+02/28/2021 02:30:13 PM: INFO:   TC_010_3: Proposal_To_Agreement flow Split Cart Async Pricing  
+02/28/2021 02:30:13 PM: INFO: #################################################################
+02/28/2021 02:30:13 PM: INFO: ---------- Login to the Application
+02/28/2021 02:30:33 PM: INFO: ---------- Switch to Lightning if not set
+02/28/2021 02:30:33 PM: INFO: ---------- Create a new Proposal
+02/28/2021 02:30:46 PM: INFO: ---------- Set Proposal Fields
+02/28/2021 02:31:05 PM: INFO: ---------- Configure the Proposal
+02/28/2021 02:31:08 PM: INFO: ---------- Search and Configure the Product
+02/28/2021 02:31:15 PM: INFO: ---------- Search and add the Product to Cart
+02/28/2021 02:31:38 PM: INFO: ---------- Go to Shopping Cart
+02/28/2021 02:31:38 PM: INFO: ---------- Click on Submit for Pricing (Async) button
+02/28/2021 02:31:53 PM: INFO: ---------- Finalize the Cart
+02/28/2021 02:32:02 PM: INFO: ---------- Click on Related Tab, Check Configuration Status
+02/28/2021 02:32:12 PM: INFO: ---------- (PASSED): Proposal is Finalized Successfully
+02/28/2021 02:32:13 PM: INFO: ---------- Generate Proposal Document
+02/28/2021 02:32:56 PM: INFO: ---------- (PASSED): Proposal Document generated successfully
+02/28/2021 02:33:20 PM: INFO: ---------- (PASSED): Approval Stage is correctly updated to Generated
+02/28/2021 02:33:20 PM: INFO: ---------- Present the Proposal
+02/28/2021 02:34:34 PM: INFO: ---------- (PASSED): Approval Stage is correctly updated to Presented
+02/28/2021 02:34:34 PM: INFO: ---------- Accept the Proposal

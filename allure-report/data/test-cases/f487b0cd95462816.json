@@ -1,0 +1,69 @@
+{
+  "uid" : "f487b0cd95462816",
+  "name" : "test_Login",
+  "fullName" : "test_TC_001_TestLogin.Test_001_TestLogin#test_Login",
+  "historyId" : "22b31676d762b41d38fb976aa403e6a8",
+  "time" : {
+    "start" : 1612281000209,
+    "stop" : 1612281017353,
+    "duration" : 17144
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1612280996877,
+      "stop" : 1612281000209,
+      "duration" : 3332
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "RegularPricing"
+  }, {
+    "name" : "suite",
+    "value" : "test_TC_001_TestLogin"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_001_TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "L005891"
+  }, {
+    "name" : "thread",
+    "value" : "5872-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_TC_001_TestLogin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "RegularPricing" ]
+  },
+  "source" : "f487b0cd95462816.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,20 @@
+02/24/2021 12:23:39 PM: INFO: #################################################################
+02/24/2021 12:23:39 PM: INFO:         TC_007_3: Save As Fav Split Cart Async Pricing           
+02/24/2021 12:23:39 PM: INFO: #################################################################
+02/24/2021 12:23:39 PM: INFO: ---------- Login to the Application
+02/24/2021 12:24:08 PM: INFO: ---------- Switch to Lightning if not set
+02/24/2021 12:24:08 PM: INFO: ---------- Create a new Proposal
+02/24/2021 12:24:20 PM: INFO: ---------- Set Proposal Fields
+02/24/2021 12:24:41 PM: INFO: ---------- Configure the Proposal
+02/24/2021 12:24:45 PM: INFO: ---------- Search and add Product to the Cart
+02/24/2021 12:25:22 PM: INFO: ---------- Go to Shopping Cart
+02/24/2021 12:25:22 PM: INFO: ---------- Click on Submit for Pricing (Async) button
+02/24/2021 12:25:38 PM: INFO: ---------- Click on Net Adj link for the Product
+02/24/2021 12:25:46 PM: INFO: ---------- Set Adjustments in Net Adj Popup and Click on Save
+02/24/2021 12:26:08 PM: INFO: ---------- Select the Prd and click on Save as Fav icon
+02/24/2021 12:26:11 PM: INFO: ---------- Set fields in Favorite Pop-up and Save it
+02/24/2021 12:26:23 PM: INFO: ---------- Delete the Product from Cart
+02/24/2021 12:26:39 PM: INFO: ---------- Go back to Catalog Page
+02/24/2021 12:26:42 PM: INFO: ---------- Check Favorite Category is not present for Split Cart
+02/24/2021 12:26:42 PM: INFO: ---------- (PASSED): Favorite is not available for Split Cart ----------
+02/24/2021 12:26:56 PM: INFO: ---------- END ---------- 
