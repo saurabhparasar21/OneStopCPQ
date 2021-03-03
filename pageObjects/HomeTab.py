@@ -1,4 +1,5 @@
 # This is a Page Object Class for Home page. Define all Locators here
+import time
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
@@ -16,14 +17,17 @@ class HomePage:
     def switchToLightning(self):
         print("---------- Method: HomePage>switchToLightning")
         title=self.driver.title
-        if title == "Salesforce - Enterprise Edition":
+        print("Title is: "+str(title))
+        if str("Salesforce") in str(title):
             linkSwitchToLight=WebDriverWait(self.driver,60).until(EC.presence_of_element_located((By.XPATH,self.link_SwtchToLightning)))
             linkSwitchToLight.click()
     # Click on Search Apps Icon present at the left top corner of the page
 
     def ClickSearchAppsIcon(self):
+        time.sleep(4)
         print("---------- Method: HomePage>ClickSearchAppsIcon")
-        IconSearchApp=WebDriverWait(self.driver, 60).until(EC.presence_of_element_located((By.XPATH, self.Icon_SearchApps_Xpath)))
+        path="//div[@class='slds-icon-waffle']"
+        IconSearchApp=WebDriverWait(self.driver, 120).until(EC.element_to_be_clickable((By.XPATH,path)))
         IconSearchApp.click()
     # Search and click the desired App
     def SearchAndClickApp(self,AppName):

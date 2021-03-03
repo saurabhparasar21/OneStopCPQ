@@ -1,4 +1,5 @@
 # Cart Page Object Class
+from selenium.webdriver import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
@@ -13,10 +14,10 @@ class CartPage:
     # Get the Total Values
     def GetValueOfTotal(self,value):
         print("---------- Method:GetValueOfTotal")
+        time.sleep(2)
         if value=="Grand Total":
             value1="Grand"
             Total = "//div[contains(@ng-repeat,'" + value1 + "')]//div[2]//div[contains(@class,'plain-text')]"
-            print("Total xpath is: " + Total)
             eleTotal = WebDriverWait(self.driver, 60).until(EC.presence_of_element_located((By.XPATH, Total)))
             return eleTotal.text
         else:
@@ -53,7 +54,7 @@ class CartPage:
 
     def WaitForPricingProgressBarToFinish(self):
         print("---------- Method:WaitForPricingProgressBarToFinish")
-        time.sleep(4)
+        time.sleep(7)
         #print("Inside Progress bar")
         eleXpath="//p[@id='progress-bar-right']"
         element=WebDriverWait(self.driver,60).until(EC.presence_of_element_located((By.XPATH,eleXpath)))
@@ -168,7 +169,6 @@ class CartPage:
         print("---------- Method:AbandonDialog")
         if Button == "OK":
             path="//md-dialog[contains(@aria-label,'Small')]//button[contains(text(),'"+Button+"')]"
-            print("Path is: "+path)
             ele=self.driver.find_element_by_xpath(path)
             ele.click()
         if Button == "Cancel":
@@ -179,18 +179,19 @@ class CartPage:
     def FinalizeDialog(self,Button):
         print("---------- Method:FinalizeDialog")
         if Button == "OK":
-            time.sleep(3)
+            time.sleep(9)
             path="//md-dialog[contains(@aria-label,'The request')]//button[contains(text(),'"+Button+"')]"
             print("Path is: "+path)
             ele=self.driver.find_element_by_xpath(path)
             ele.click()
 
     def ClickNetAdjForAnyProduct(self,PrdName):
+        time.sleep(5)
         print("---------- Method:ClickNetAdjForAnyProduct")
         rowNo=self.getRowNoOfProduct(PrdName)
         elesPath = "//div[@class='right ui-grid-render-container-right ui-grid-render-container']//div[@title='Adjustments']"
         elesCnt=self.driver.find_elements_by_xpath(elesPath)
-        for i in range(100):
+        for i in range(500):
             if i==rowNo:
                 elesCnt[i].click()
 
@@ -225,7 +226,6 @@ class CartPage:
     def SetQuantityForLineItem(self,PrdName,Quantity):
         print("---------- Method:SetQuantityForLineItem")
         rowNo=self.getRowNoOfProduct(PrdName)
-        print("Row no is: "+str(rowNo))
         time.sleep(3)
         QtyPath = "//div[contains(@class,'QUANTITY')]//input"
         elesCnt=self.driver.find_elements_by_xpath(QtyPath)
@@ -233,7 +233,6 @@ class CartPage:
         for i in range(100):
             if i==rowNo:
                 i-=1
-                print(i)
                 elesCnt[i].click()
                 elesCnt[i].clear()
                 elesCnt[i].send_keys(Quantity)
@@ -261,6 +260,72 @@ class CartPage:
         path="//span[@class='proposal-summary__approval-statuslabel']/following-sibling::span//div"
         element1 = WebDriverWait(self.driver, 60).until(EC.presence_of_element_located((By.XPATH, path)))
         return element1.text
+
+    def VerifyDealGuidanceShapeAndColor(self,PrdName,ExpectedShape,ExpectedColor):
+        print("---------- Method:VerifyDealGuidanceShapeAndColor")
+        rowNo = self.getRowNoOfProduct(PrdName)
+        print("Row No is: "+str(rowNo))
+        elesPath = "//pricing-guidance//span"
+        elesCnt = self.driver.find_elements_by_xpath(elesPath)
+        for i in range(100):
+            if i == rowNo:
+                actShape=elesCnt[i].get_attribute("class")
+                print("Actual Shape is: "+str(actShape))
+                if str(ExpectedShape) in str(actShape):
+                    actColor = elesCnt[i].get_attribute("style")
+                    print("Actual Color is: " + str(actColor))
+                    if str(ExpectedColor) in str(actColor):
+                        print("Inside True")
+                        return True
+                else:
+                    print("Inside False")
+                    return False
+
+    def SetValueInShoppingCartTable(self,PrdName,ColName,ColType,Value):
+        print("---------- Method:SetValueInShoppingCartTable")
+        if ColType == str("Picklist"):
+            rowNo = self.getRowNoOfProduct(PrdName)
+            # Generate Path based on Column Name
+            Path="//span[text()='"+ColName+"']"
+            PathEle=self.driver.find_element_by_xpath(Path)
+            IdOfEle=PathEle.get_attribute("id")
+            OldString = IdOfEle
+            NewString1 = str.replace(OldString, '-uiGrid', '-0-uiGrid')
+            NewString2 = str.replace(NewString1, '-header-text', '-cell')
+            elesPath = "//div[@id='"+NewString2+"']"
+            elesCnt = self.driver.find_elements_by_xpath(elesPath)
+
+            print("Click on the Cart Col and set value")
+            for i in range(100):
+                if i==rowNo:
+                    i-=1
+                    time.sleep(2)
+                    elesCnt[i].click()
+                    path = "//div[contains(text(),'"+Value+"')]/.."
+                    ele=self.driver.find_element_by_xpath(path)
+                    time.sleep(2)
+                    ele.click()
+                    time.sleep(2)
+                    break
+
+
+    def ClickCartMenuButton(self,Button):
+        path="//span[@class='menu-toggle']"
+        element1 = WebDriverWait(self.driver, 60).until(EC.element_to_be_clickable((By.XPATH,path)))
+        element1.click()
+        time.sleep(1)
+        path2="//button[contains(text(),'"+Button+"')]"
+        element2=self.driver.find_element_by_xpath(path2)
+        #WebDriverWait(self.driver, 60).until(EC.element_to_be_clickable((By.XPATH, path)))
+        # Scroll to the element
+        actions = ActionChains(self.driver)
+        actions.move_to_element(element2).perform()
+        time.sleep(1)
+        element2.click()
+
+
+
+
 
 
        #//div[@class='aptPercentage read-only-plain-text']

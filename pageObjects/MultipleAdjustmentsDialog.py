@@ -57,4 +57,4 @@ class MultipleAdjustmentsDialog:
         element = "//md-dialog[@ng-show='multipleAdjustments.visible()']//button[contains(text(),'"+Button+"')]"
         element1 = WebDriverWait(self.driver, 60).until(EC.element_to_be_clickable((By.XPATH, element)))
         element1.click()
-        time.sleep(20)
+        time.sleep(5)

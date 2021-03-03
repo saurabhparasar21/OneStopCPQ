@@ -1,3 +1,4 @@
+from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
@@ -14,11 +15,14 @@ class ProposalDetailPage:
         self.driver=driver
 
     def getFieldValue(self,FieldType,FieldLabel):
-        time.sleep(12)
+        time.sleep(15)
         print("---------- Method: getFieldValue")
         if FieldType == "Text" or "Picklist":
             element="//span[@class='test-id__field-label' and text()='"+FieldLabel+"']/ancestor::div[2]//div[2]//slot//slot//lightning-formatted-text"
-            eleY=WebDriverWait(self.driver,60).until(EC.presence_of_element_located((By.XPATH,element)))
+            eleY=WebDriverWait(self.driver,180).until(EC.presence_of_element_located((By.XPATH,element)))
+            # Scroll to the element
+            actions = ActionChains(self.driver)
+            actions.move_to_element(eleY).perform()
             eleLabel=eleY.get_attribute("value")
         return eleLabel
 
@@ -42,15 +46,16 @@ class ProposalDetailPage:
             Btn = WebDriverWait(self.driver, 60).until(EC.element_to_be_clickable((By.XPATH, Path)))
             Btn.click()
         else:
+            time.sleep(2)
             ProposalBtn="//*[@title='"+Button+"']"
             #and(@role='button' or @type='button')
             "runtime_platform_actions-action-renderer"
-            Btn=WebDriverWait(self.driver,60).until(EC.presence_of_element_located((By.XPATH,ProposalBtn)))
+            Btn=WebDriverWait(self.driver,120).until(EC.presence_of_element_located((By.XPATH,ProposalBtn)))
             Btn.click()
 
     def DeleteProposal(self):
         print("---------- Method: DeleteProposal")
-        time.sleep(10)
+        time.sleep(6)
         path = "//button[@name='Delete']"
         ele = WebDriverWait(self.driver, 60).until(EC.presence_of_element_located((By.XPATH, path)))
         ele.click()
@@ -68,6 +73,7 @@ class ProposalDetailPage:
             btn="//span[text()='"+Button+"']"
             PopUpBtn=WebDriverWait(self.driver,60).until(EC.presence_of_element_located((By.XPATH,btn)))
             PopUpBtn.click()
+            time.sleep(3)
 
     def SetProposalField(self,FieldLabel,FieldValue):
         print("---------- Method: SetProposalField: "+FieldLabel)
@@ -80,7 +86,7 @@ class ProposalDetailPage:
             fieldElement = WebDriverWait(self.driver, 60).until(EC.presence_of_element_located((By.XPATH, ele)))
             fieldElement.click()
         elif FieldLabel=="Account":
-            time.sleep(2)
+            #time.sleep(2)
             eleAccnt="//span[@class='slds-listbox__option-text slds-listbox__option-text_entity']/lightning-base-combobox-formatted-text[@title='"+FieldValue+"']"
             fieldElement=WebDriverWait(self.driver,60).until(EC.presence_of_element_located((By.XPATH,eleAccnt)))
             fieldElement.click()
@@ -127,7 +133,7 @@ class ProposalDetailPage:
 
     def ClickOnDetailPageTab(self,TabName):
         path = "//a[text()='"+TabName+"']"
-        Ele = WebDriverWait(self.driver, 60).until(EC.element_to_be_clickable((By.XPATH, path)))
+        Ele = WebDriverWait(self.driver, 180).until(EC.element_to_be_clickable((By.XPATH, path)))
         Ele.click()
 
     def ClickMenuButton(self,MenuButtonName):

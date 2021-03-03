@@ -146,10 +146,9 @@ class Test_CartMassUpdate:
         #Abandon the Cart and delete it
         CartPgObj.ClickCartButtons('Abandon')
         CartPgObj.AbandonDialog('OK')
-        time.sleep(8)
+        time.sleep(6)
         PropsPageObj.DeleteProposal()
         PropsPageObj.DialogAcceptOrCancel('Delete')
-        self.driver.close()
         self.lgrObj.info("---------- END ---------- ")
 
     @pytest.mark.Split
@@ -293,8 +292,8 @@ class Test_CartMassUpdate:
         time.sleep(7)
         PropsPageObj.DeleteProposal()
         PropsPageObj.DialogAcceptOrCancel('Delete')
-        self.driver.close()
         self.lgrObj.info("---------- END ---------- ")
+        self.driver.close()
 
     @pytest.mark.TurboPricing
     def test_MassUpdateAction_Turbo(self, setup):
@@ -427,5 +426,5 @@ class Test_CartMassUpdate:
         time.sleep(7)
         PropsPageObj.DeleteProposal()
         PropsPageObj.DialogAcceptOrCancel('Delete')
-        self.driver.close()
         self.lgrObj.info("---------- END ---------- ")
+        self.driver.close()

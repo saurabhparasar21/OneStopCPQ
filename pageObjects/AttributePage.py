@@ -32,7 +32,7 @@ class AttributePage:
         for r in range(300):
             path="//button[contains(@class,'GoToPricing')]"
             pathele=self.driver.find_element_by_xpath(path)
-            print(pathele.is_enabled())
+            #print(pathele.is_enabled())
             if pathele.is_enabled() == True:
                 break
 
@@ -286,3 +286,16 @@ class AttributePage:
         print("Path is: " + path)
         ele = self.driver.find_element_by_xpath(path)
         ele.click()
+
+    def SetAttribute(self,AttrType,Attr,Value):
+        if AttrType == "Picklist":
+            Path = "//*[contains(*,'"+Attr+"') and contains(@ng-class,'two')]"
+            PathEle = WebDriverWait(self.driver, 80).until(EC.presence_of_element_located((By.XPATH, Path)))
+            actions = ActionChains(self.driver)
+            actions.move_to_element(PathEle).perform()
+            self.driver.execute_script("window.scrollBy(0, 75);")
+            PathEle.click()
+            path1="//li[@role='option']//div[text()='"+Value+"']"
+            PathEle1 = WebDriverWait(self.driver, 80).until(EC.presence_of_element_located((By.XPATH, path1)))
+            PathEle1.click()
+

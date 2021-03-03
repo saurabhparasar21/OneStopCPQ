@@ -35,4 +35,5 @@ class SaveAsFavorite:
         elepath="//button[contains(text(),'"+Button+"') and contains(@ng-click,'saveAsFav')]"
         ele = WebDriverWait(self.driver, 60).until(EC.element_to_be_clickable((By.XPATH, elepath)))
         ele.click()
+        time.sleep(3)
 

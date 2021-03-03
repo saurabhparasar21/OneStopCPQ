@@ -13,7 +13,6 @@ from utilities import XLUtils
 from utilities.readProperties import ReadConfig
 from utilities.Logger import Logger
 
-
 class Test_Proposal_To_Agreement_Flow:
     baseUrl = ReadConfig.getbaseURL()
     UserName = ReadConfig.getuserName()
@@ -165,10 +164,10 @@ class Test_Proposal_To_Agreement_Flow:
         PropsPageObj.ClickProposalPageButton('Accept')
         # Verify if Approval Stage is updated to Presented
 
-        time.sleep(4)
-        Value1 = PropsPageObj.getFieldValue('Picklist','Approval Stage')
-        print(Value1)
-        if str(Value1) == str("Accepted"):
+        time.sleep(8)
+        Value2 = PropsPageObj.getFieldValue('Picklist','Approval Stage')
+        print(Value2)
+        if str(Value2) == str("Accepted"):
             self.lgrObj.info("---------- (PASSED): Approval Stage is correctly updated to Accepted")
             assert True
         else:
@@ -380,7 +379,7 @@ class Test_Proposal_To_Agreement_Flow:
         PropsPageObj.ClickProposalPageButton('Accept')
         # Verify if Approval Stage is updated to Presented
 
-        time.sleep(4)
+        time.sleep(8)
         Value1 = PropsPageObj.getFieldValue('Picklist', 'Approval Stage')
         print(Value1)
         if str(Value1) == str("Accepted"):
@@ -607,7 +606,7 @@ class Test_Proposal_To_Agreement_Flow:
         self.lgrObj.info("---------- Accept the Proposal")
         PropsPageObj.ClickProposalPageButton('Accept')
         # Verify if Approval Stage is updated to Presented
-        time.sleep(4)
+        time.sleep(8)
         Value1 = PropsPageObj.getFieldValue('Picklist', 'Approval Stage')
         print(Value1)
         if str(Value1) == str("Accepted"):
@@ -636,7 +635,7 @@ class Test_Proposal_To_Agreement_Flow:
             self.driver.close()
 
         # Go to Related Tab and Verify the status of Configuration
-        time.sleep(4)
+        time.sleep(7)
         AgrmntPgObj.ClickOnDetailPageTab('Related')
         ConfigSts = AgrmntPgObj.CheckConfigurationStatus('Finalized')
         if str(ConfigSts) == str('Finalized'):
@@ -646,6 +645,7 @@ class Test_Proposal_To_Agreement_Flow:
             self.lgrObj.info("---------- (FAILED): Agreement is NOT Finalized Successfully")
             assert False
             self.driver.close()
+
 
         # Check if correct no. of Agreement lines are created
         NoOfAgmntLns = AgrmntPgObj.CountNoOfAgrmntLines()
@@ -822,7 +822,7 @@ class Test_Proposal_To_Agreement_Flow:
         self.lgrObj.info("---------- Accept the Proposal")
         PropsPageObj.ClickProposalPageButton('Accept')
         # Verify if Approval Stage is updated to Presented
-        time.sleep(4)
+        time.sleep(8)
         Value1 = PropsPageObj.getFieldValue('Picklist', 'Approval Stage')
         print(Value1)
         if str(Value1) == str("Accepted"):
@@ -1037,7 +1037,7 @@ class Test_Proposal_To_Agreement_Flow:
         PropsPageObj.ClickProposalPageButton('Accept')
         # Verify if Approval Stage is updated to Presented
 
-        time.sleep(4)
+        time.sleep(12)
         Value1 = PropsPageObj.getFieldValue('Picklist', 'Approval Stage')
         print(Value1)
         if str(Value1) == str("Accepted"):

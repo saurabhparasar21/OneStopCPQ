@@ -348,7 +348,6 @@ class Test_MultipleAdjustments:
         self.lgrObj.info("---------- Click on Submit for Pricing (Async) button")
         CartPgObj.ClickCartButtons('Submit for Pricing (Async)')
         CartPgObj.ClickCartButtons('Submit & Stay On Cart')
-        time.sleep(3)
         CartPgObj.WaitForPricingProgressBarToFinish()
         time.sleep(5)
 
@@ -380,12 +379,8 @@ class Test_MultipleAdjustments:
         # Click on Save Button
         self.MulAdj.ClickButton('Save')
         self.lgrObj.info("---------- Click Save button after adding 2 adjustment lines")
-
-        time.sleep(5)
         ## Click on Submit for Pricing (Async) button
         self.lgrObj.info("---------- Click on Submit for Pricing (Async) to calculate Total based on mul adjs")
-        self.lgrObj.info("---------- (FAILED): (CPQ-46474) Grand Total after multiple adjustments is not correct")
-        self.lgrObj.info("---------- END ----------")
         CartPgObj.ClickCartButtons('Submit for Pricing (Async)')
         CartPgObj.ClickCartButtons('Submit & Stay On Cart')
         CartPgObj.WaitForPricingProgressBarToFinish()
@@ -395,8 +390,8 @@ class Test_MultipleAdjustments:
         # Set obj to access methods for Cart page
         self.cartPage = CartPage(self.driver)
         actGrandTotal = self.cartPage.GetValueOfTotal('Grand Total')
-        self.lgrObj.info("Expected total is: "+str(expGrandTotal))
-        self.lgrObj.info("Actual total is: " +str(actGrandTotal))
+        self.lgrObj.info("---------- Expected total is: "+str(expGrandTotal))
+        self.lgrObj.info("---------- Actual total is: " +str(actGrandTotal))
 
         if str(expGrandTotal) in (str(actGrandTotal)):
             assert True
@@ -405,5 +400,5 @@ class Test_MultipleAdjustments:
         else:
             self.driver.save_screenshot("../Screenshots/" + "TC_003.png")
             self.lgrObj.info("---------- (FAILED): (CPQ-46474) Grand Total after multiple adjustments is not correct")
-            self.driver.close()
             assert False
+            self.driver.close()

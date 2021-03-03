@@ -46,7 +46,7 @@ class CustomCartView:
         SaveBtnPth="//button[text()='Save']"
         SaveBtnEle=WebDriverWait(self.driver, 60).until(EC.element_to_be_clickable((By.XPATH, SaveBtnPth)))
         SaveBtnEle.click()
-        time.sleep(4)
+        time.sleep(8)
 
     def SelectCustomCartView(self,ViewName):
         time.sleep(3)

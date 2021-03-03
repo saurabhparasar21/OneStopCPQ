@@ -114,7 +114,7 @@ class TestCustomCartView:
 
         self.lgrObj.info("---------- Expand the Group and set Is Optional Checkbox")
         ExpandIcon="//div[@class='block-productname']//a"
-        ExpandIconEle = WebDriverWait(self.driver, 60).until(EC.presence_of_element_located((By.XPATH, ExpandIcon)))
+        ExpandIconEle = WebDriverWait(self.driver, 60).until(EC.element_to_be_clickable((By.XPATH,ExpandIcon)))
         ExpandIconEle.click()
         time.sleep(3)
         # print("Click on Is Optional Checkbox")

@@ -35,22 +35,26 @@ class AgreementPage:
             path = "//a[text()='"+TabName+"']"
             ele=self.driver.find_elements_by_xpath(path)
             for i in range(len(ele)):
-                if i == 1:
+                print(ele[i].text)
+                if ele[i].text == "Related":
                     ele[i].click()
                     break
 
     def CheckConfigurationStatus(self,ExpectedStatus):
         print("---------- Method: CheckConfigurationStatus")
-        for i in range(100):
+        for i in range(1000):
+            time.sleep(5)
             Path = "//span[@title='Configurations']/ancestor::lst-common-list//div[@class='slds-scrollable_y']//td[@data-label='Status']//lightning-formatted-text"
-            Ele = WebDriverWait(self.driver, 60).until(EC.presence_of_element_located((By.XPATH, Path)))
-            #print(Ele.text)
-            if Ele.text != ExpectedStatus:
-                print("Inside If")
-                self.driver.find_element_by_xpath(Path).send_keys(Keys.F5)
-                print("Page refreshed")
-                time.sleep(4)
-        return Ele.text
+            Ele = self.driver.find_elements_by_xpath(Path)
+            print(Ele[1].text)
+            if Ele[1].text == str(ExpectedStatus):
+                return Ele[1].text
+                break
+            else:
+                self.ClickOnDetailPageTab('Related')
+                time.sleep(6)
+            self.driver.refresh()
+
 
     def CountNoOfAgrmntLines(self):
         print("---------- Method: CountNoOfAgrmntLines")

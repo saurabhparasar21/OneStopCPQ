@@ -267,6 +267,7 @@ class TestProductAttributeRule:
             self.driver.close()
 
         self.lgrObj.info("---------- Remove the Product and go to Catalog page")
+        time.sleep(4)
         AttrPgObj.ClickButton('Remove')
 
         self.lgrObj.info("---------- Search Product, Set Qty and the Configure the Bundle")
@@ -1524,10 +1525,12 @@ class TestProductAttributeRule:
             self.lgrObj.info("---------- (FAILED): " + Attr7 + " is NOT Reset correctly")
             assert False
             self.driver.close()
+        self.lgrObj.info("---------------------------------------------------------")
 
         ######################
         # PAR (ALLOW)
         #####################
+
         AttrPgObj.ClickButton('Remove')
         CtlgPgObj.SearchProduct(PrdName)
         CtlgPgObj.CatalogPageQty(PrdName, 11)
@@ -1555,6 +1558,7 @@ class TestProductAttributeRule:
             self.driver.close()
 
         self.lgrObj.info("----------------------------------------------------------")
+        time.sleep(4)
         self.lgrObj.info("Abandon the Cart")
         AttrPgObj.AttrPageAbandonCartIcon()
         time.sleep(8)

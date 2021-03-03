@@ -1,7 +1,8 @@
+import string
 from utilities import XLUtils
 from utilities.readProperties import ReadConfig
 
-class GetPullRequestsInfo:
+class Test_WorkingFile:
 
 
     def test_FileWrite(self,setup):
@@ -21,3 +22,14 @@ class GetPullRequestsInfo:
             print("passed")
         else:
             print("Failed")
+
+    def test_ConvertString1to2(self):
+        OldString="1613377508168-uiGrid-000M-header-text"
+        NewString1= str.replace(OldString,'-uiGrid','-0-uiGrid')
+        print("New String 1 is: ")
+        print(NewString1)
+        NewString2 = str.replace(NewString1, '-header-text', '-cell')
+        print("New String 1 is: ")
+        print(NewString2)
+
+
