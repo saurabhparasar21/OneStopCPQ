@@ -14,3 +14,11 @@ class OptionPage:
         OptnChkBx=WebDriverWait(self.driver, 60).until(EC.presence_of_element_located((By.XPATH, OptnChkBxPath)))
         OptnChkBx.click()
 
+    def IsOptionEnableOrDisable(self,OptnPrdName):
+        Path="//span[text()='"+OptnPrdName+"']/ancestor::div[contains(@class,'form')]//div[@class='checkbox-override']//input"
+        pathEle = WebDriverWait(self.driver, 60).until(EC.presence_of_element_located((By.XPATH, Path)))
+        return pathEle.get_attribute('disabled')
+
+
+
+
