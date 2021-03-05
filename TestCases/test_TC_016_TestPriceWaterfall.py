@@ -11,7 +11,7 @@ from utilities import XLUtils
 from utilities.readProperties import ReadConfig
 from utilities.Logger import Logger
 
-class Test_PriceWaterfall:
+class PriceWaterfall:
     baseUrl = ReadConfig.getbaseURL()
     UserName = ReadConfig.getuserName()
     Password = ReadConfig.getpassword()
@@ -98,13 +98,22 @@ class Test_PriceWaterfall:
 
         # # Set up Price Waterfall Object
         PrcWtrFlObj = PriceWaterfallPage(self.driver)
-        Verified=PrcWtrFlObj.VerifyPricePointValueColor('List Price','rgb(25,146,229)','USD 100.00000')
+        PPName = XLUtils.readData(self.file, 'TC_016', 1, 8)
+        ExpctPPColor=XLUtils.readData(self.file, 'TC_016', 2, 8)
+        ExpctPPrice = XLUtils.readData(self.file, 'TC_016', 3, 8)
+        Verified=PrcWtrFlObj.VerifyPricePointValueColor(PPName,ExpctPPColor,ExpctPPrice)
         print("Returned value is: "+str(Verified))
 
-        Verified=PrcWtrFlObj.VerifyPricePointValueColor('PM-0000000456','rgb(255,94,25)','(USD 5.00000)')
+        PPName = XLUtils.readData(self.file, 'TC_016', 1, 9)
+        ExpctPPColor = XLUtils.readData(self.file, 'TC_016', 2, 9)
+        ExpctPPrice = XLUtils.readData(self.file, 'TC_016', 3, 9)
+        Verified=PrcWtrFlObj.VerifyPricePointValueColor(PPName,ExpctPPColor,ExpctPPrice)
         print("Returned value is: "+str(Verified))
 
-        Verified = PrcWtrFlObj.VerifyPricePointValueColor('Base Price', 'rgb(25,146,229)', 'USD 95.00000')
+        PPName = XLUtils.readData(self.file, 'TC_016', 1, 10)
+        ExpctPPColor = XLUtils.readData(self.file, 'TC_016', 2, 10)
+        ExpctPPrice = XLUtils.readData(self.file, 'TC_016', 3, 10)
+        Verified = PrcWtrFlObj.VerifyPricePointValueColor(PPName,ExpctPPColor,ExpctPPrice)
         print("Returned value is: " + str(Verified))
 
         # ActPPValue = PrcWtrFlObj.GetActualPri'ceOfAnyPricePoint('MN - 2020 PR 1')

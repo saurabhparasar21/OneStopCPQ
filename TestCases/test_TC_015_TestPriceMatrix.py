@@ -99,7 +99,7 @@ class Test_PriceMatrix:
         grandTotalAfterDelete = CartPgObj.GetValueOfTotal('Grand Total')
         SlicedGrandTotalAfterDelete = grandTotalAfterDelete[4:]
         print("Actual Grand Total is: "+str(SlicedGrandTotalAfterDelete))
-        expctGrandTotal=str("950")
+        expctGrandTotal=str("950.00")
         if str(expctGrandTotal) in str(SlicedGrandTotalAfterDelete):
             assert True
             self.lgrObj.info("---------- (PASSED): Price Matrix 1st bucket pricing is correct")
@@ -267,7 +267,7 @@ class Test_PriceMatrix:
         grandTotalAfterDelete = CartPgObj.GetValueOfTotal('Grand Total')
         SlicedGrandTotalAfterDelete = grandTotalAfterDelete[4:]
         print("Actual Grand Total is: "+str(SlicedGrandTotalAfterDelete))
-        expctGrandTotal=str("950")
+        expctGrandTotal=str("950.00")
         if str(expctGrandTotal) in str(SlicedGrandTotalAfterDelete):
             assert True
             self.lgrObj.info("---------- (PASSED): Price Matrix 1st bucket pricing is correct")
@@ -417,8 +417,7 @@ class Test_PriceMatrix:
         CartPgObj = CartPage(self.driver)
         CartPgObj.WaitForPricingProgressBarToFinish()
 
-        self.lgrObj.info(
-            "---------- Set Quantity, MN - 2020 LI PICK and check if appropriate bucket adjustment is applied")
+        self.lgrObj.info("---------- Set Quantity, MN - 2020 LI PICK and check if appropriate bucket adjustment is applied")
         CartPgObj.SetQuantityForLineItem(PrdName, 10)
         CartPgObj.SetValueInShoppingCartTable(PrdName, "MN - 2020 LI PICK", "Picklist", 'Pick 1')
         self.lgrObj.info("---------- Click on Reprice button")
@@ -428,7 +427,7 @@ class Test_PriceMatrix:
         grandTotalAfterDelete = CartPgObj.GetValueOfTotal('Grand Total')
         SlicedGrandTotalAfterDelete = grandTotalAfterDelete[4:]
         print("Actual Grand Total is: " + str(SlicedGrandTotalAfterDelete))
-        expctGrandTotal = str("950")
+        expctGrandTotal = str("950.00")
         if str(expctGrandTotal) in str(SlicedGrandTotalAfterDelete):
             assert True
             self.lgrObj.info("---------- (PASSED): Price Matrix 1st bucket pricing is correct")
