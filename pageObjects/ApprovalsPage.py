@@ -1,5 +1,6 @@
 import time
 
+import pyautogui
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.by import By
@@ -13,14 +14,16 @@ class ApprovalsPage:
 
     def SwitchToApprovalFrame(self,title):
         print("---------- Method: SwitchToApprovalFrame")
-        time.sleep(6)
         if title == "Quote":
-            self.driver.refresh()
+            time.sleep(4)
+            print("Inside Quote If block")
+            pyautogui.press('f5')
             time.sleep(5)
-            framePath = "//div[@class='iframe-parent slds-template_iframe slds-card']//iFrame[contains(@title,'"+title+"')]"
+            framePath = "//iFrame[contains(@title,'"+title+"')]"
             WebDriverWait(self.driver, 20).until(EC.frame_to_be_available_and_switch_to_it((By.XPATH, framePath)))
         else:
-            framePath = "//div[@class='iframe-parent slds-template_iframe slds-card']//iFrame[contains(@title,'"+title+"')]"
+            print("Inside Quote Else block")
+            framePath = "//iFrame[contains(@title,'"+title+"')]"
             WebDriverWait(self.driver, 20).until(EC.frame_to_be_available_and_switch_to_it((By.XPATH, framePath)))
 
     def SwitchToDefault(self):

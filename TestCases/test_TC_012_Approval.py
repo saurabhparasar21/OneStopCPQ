@@ -132,12 +132,12 @@ class Test_Approvals:
         # Check Approval Stage
         #HomePage.SwitchToDefault(self)
         #HomePage.SwitchToFrame(self)
-        time.sleep(6)
+        time.sleep(10)
         self.driver.switch_to.window(self.driver.window_handles[1])
         #print("Title is: " + str(self.driver.title))
         ActualStatus = PropsPageObj.getFieldValue('Picklist','Approval Stage')
         #print("Status is: "+str(ActualStatus))
-        if ActualStatus == "Approval Required":
+        if ActualStatus == "Pending Approval":
             assert True
             self.lgrObj.info("---------- (PASSED): Proposal Detail page Approval Status is updated to Approval Required")
         else:
@@ -296,7 +296,7 @@ class Test_Approvals:
         # Check Approval Stage
         #HomePage.SwitchToDefault(self)
         #HomePage.SwitchToFrame(self)
-        time.sleep(6)
+        time.sleep(10)
         self.driver.switch_to.window(self.driver.window_handles[1])
         #print("Title is: " + str(self.driver.title))
         ActualStatus = PropsPageObj.getFieldValue('Picklist','Approval Stage')
@@ -319,14 +319,14 @@ class Test_Approvals:
         ApprvalPgObj.SwitchToApprovalFrame('My Approvals')
         ApprvalPgObj.SelectAllStepsCheckbox()
         # Time is needed
-        time.sleep(3)
+        time.sleep(5)
         ApprvalPgObj.ClickButton('Approve')
         ApprvalPgObj.EnterApproverComment("Approved")
         ApprvalPgObj.ClickButton('Save')
         ApprvalPgObj.ClickButton('Return')
 
         # Check Approval Stage
-        time.sleep(3)
+        time.sleep(6)
         self.driver.switch_to.window(self.driver.window_handles[2])
         print("Title is: " + str(self.driver.title))
         ActualStatus = PropsPageObj.getFieldValue('Picklist','Approval Stage')
@@ -432,6 +432,7 @@ class Test_Approvals:
         CartPgObj.WaitForPricingProgressBarToFinish()
 
         self.lgrObj.info("---------- Set desired Line item fields so that Approval will get triggered")
+        time.sleep(4)
         CartPgObj.SetQuantityForLineItem(PrdName,10)
         CartPgObj.ClickNetAdjForAnyProduct(PrdName)
         NetAdjObj = NetAdjustmentPopUp(self.driver)
@@ -506,7 +507,7 @@ class Test_Approvals:
         ApprvalPgObj.ClickButton('Return')
 
         # Check Approval Stage
-        time.sleep(3)
+        time.sleep(6)
         self.driver.switch_to.window(self.driver.window_handles[2])
         print("Title is: " + str(self.driver.title))
         ActualStatus = PropsPageObj.getFieldValue('Picklist','Approval Stage')

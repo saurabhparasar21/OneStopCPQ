@@ -145,6 +145,7 @@ class CartPage:
     # Get all the Columns and their Ids
     def getRowNoOfProduct(self, ProductName):
         print("Insisde Get Row No Prd")
+        time.sleep(4)
         print("Prd name received: "+str(ProductName))
         print("---------- Method:getRowNoOfProduct")
         ele = "//span[@class='product-name-space']//span"
@@ -226,7 +227,7 @@ class CartPage:
     def SetQuantityForLineItem(self,PrdName,Quantity):
         print("---------- Method:SetQuantityForLineItem")
         rowNo=self.getRowNoOfProduct(PrdName)
-        time.sleep(3)
+        time.sleep(6)
         QtyPath = "//div[contains(@class,'QUANTITY')]//input"
         elesCnt=self.driver.find_elements_by_xpath(QtyPath)
 

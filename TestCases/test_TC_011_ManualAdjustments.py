@@ -351,7 +351,7 @@ class Test_ManualAdjustments:
 
         # Adjustment Type = % Discount
         NetAdjObj.SetAdjustmentTypeAndValue('% Discount','10')
-        time.sleep(2)
+        time.sleep(4)
         #self.lgrObj.info("---------- Click on Reprice button")
 
         CartPgObj.ClickCartButtons('Reprice')
@@ -370,7 +370,7 @@ class Test_ManualAdjustments:
         # Adjustment Type = Discount Amount
         CartPgObj.ClickNetAdjForAnyProduct(PrdName)
         NetAdjObj.SetAdjustmentTypeAndValue('Discount Amount', '20')
-        time.sleep(2)
+        time.sleep(4)
         #self.lgrObj.info("---------- Click on Reprice button")
 
         CartPgObj.ClickCartButtons('Reprice')
@@ -453,7 +453,7 @@ class Test_ManualAdjustments:
         time.sleep(2)
         CartPgObj.ClickNetAdjForAnyProduct(PrdName)
         NetAdjObj.SetAdjustmentTypeAndValue('Price Override', '30')
-        time.sleep(2)
+        time.sleep(4)
         #self.lgrObj.info("---------- Click on Reprice button")
 
         CartPgObj.ClickCartButtons('Reprice')
