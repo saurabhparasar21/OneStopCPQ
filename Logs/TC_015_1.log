@@ -1,0 +1,22 @@
+03/05/2021 11:51:24 AM: INFO: ####################################################################
+03/05/2021 11:51:24 AM: INFO:              TC_015_1: Price Matrix (Regular Pricing)              
+03/05/2021 11:51:24 AM: INFO: ####################################################################
+03/05/2021 11:51:24 AM: INFO: ---------- Login to the application
+03/05/2021 11:51:44 AM: INFO: ---------- Create a new Proposal
+03/05/2021 11:51:57 AM: INFO: ---------- Set Proposal Fields ----------
+03/05/2021 11:52:10 AM: INFO: ---------- Configure the Proposal
+03/05/2021 11:52:21 AM: INFO: ---------- Search and Add Product to Cart
+03/05/2021 11:53:05 AM: INFO: ---------- Set Quantity, MN - 2020 LI PICK and check if appropriate bucket adjustment is applied
+03/05/2021 11:53:26 AM: INFO: ---------- Click on Reprice button
+03/05/2021 11:53:39 AM: INFO: ---------- Verify Grand Total
+03/05/2021 11:53:41 AM: INFO: ---------- (PASSED): Price Matrix 1st bucket pricing is correct
+03/05/2021 11:54:02 AM: INFO: ---------- Click on Reprice button
+03/05/2021 11:54:15 AM: INFO: ---------- Verify Grand Total
+03/05/2021 11:54:17 AM: INFO: ---------- (PASSED): Price Matrix 2nd bucket pricing is correct
+03/05/2021 11:54:37 AM: INFO: ---------- Click on Reprice button
+03/05/2021 11:54:50 AM: INFO: ---------- Verify Grand Total
+03/05/2021 11:54:52 AM: INFO: ---------- (PASSED): Price Matrix 3rd bucket pricing is correct
+03/05/2021 11:55:02 AM: INFO: ---------- Click on Reprice button
+03/05/2021 11:55:14 AM: INFO: ---------- Verify Grand Total
+03/05/2021 11:55:16 AM: INFO: ---------- (PASSED): Price Matrix OutSide bucket pricing is correct
+03/05/2021 11:55:38 AM: INFO: ---------- END ---------- 

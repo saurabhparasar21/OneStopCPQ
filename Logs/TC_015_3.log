@@ -1,0 +1,12 @@
+03/05/2021 11:30:44 AM: INFO: ####################################################################
+03/05/2021 11:30:44 AM: INFO:              TC_015_3: Price Matrix (Turbo Pricing)                 
+03/05/2021 11:30:44 AM: INFO: ####################################################################
+03/05/2021 11:30:44 AM: INFO: ---------- Login to the application
+03/05/2021 11:31:04 AM: INFO: ---------- Create a new Proposal
+03/05/2021 11:31:17 AM: INFO: ---------- Set Proposal Fields ----------
+03/05/2021 11:31:30 AM: INFO: ---------- Configure the Proposal
+03/05/2021 11:31:41 AM: INFO: ---------- Search and Add Product to Cart
+03/05/2021 11:32:25 AM: INFO: ---------- Set Quantity, MN - 2020 LI PICK and check if appropriate bucket adjustment is applied
+03/05/2021 11:32:46 AM: INFO: ---------- Click on Reprice button
+03/05/2021 11:32:56 AM: INFO: ---------- Verify Grand Total
+03/05/2021 11:32:58 AM: INFO: ---------- (FAILED): Price Matrix 1st bucket pricing is correct

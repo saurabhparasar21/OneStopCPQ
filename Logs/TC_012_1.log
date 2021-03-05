@@ -1,0 +1,18 @@
+03/04/2021 05:27:15 PM: INFO: #################################################################
+03/04/2021 05:27:15 PM: INFO:          TC_012_1: Approvals Reg Cart Normal Pricing             
+03/04/2021 05:27:15 PM: INFO: #################################################################
+03/04/2021 05:27:15 PM: INFO: ---------- Login to the Application
+03/04/2021 05:27:46 PM: INFO: ---------- Switch to Lightning if not set
+03/04/2021 05:27:46 PM: INFO: ---------- Create a new Proposal
+03/04/2021 05:28:00 PM: INFO: ---------- Set Proposal Fields
+03/04/2021 05:28:13 PM: INFO: ---------- Configure the Proposal
+03/04/2021 05:28:25 PM: INFO: ---------- Search and add Product to Cart
+03/04/2021 05:29:20 PM: INFO: ---------- Set desired Line item fields so that Approval will get triggered
+03/04/2021 05:29:52 PM: INFO: ---------- (PASSED): Approval icon is visible for the line item
+03/04/2021 05:29:52 PM: INFO: ---------- (PASSED): Cart page Approval Status is changed to Approval Required
+03/04/2021 05:29:52 PM: INFO: ---------- Click on Submit For Approval button
+03/04/2021 05:30:48 PM: INFO: ---------- (FAILED): Proposal Detail page Approval Status is NOT updated to Approval Required
+03/04/2021 05:30:48 PM: INFO: ---------- Click on My Approvals and approve the request
+03/04/2021 05:31:39 PM: INFO: ---------- (PASSED): Proposal Detail page Approval Status is updated to Approved
+03/04/2021 05:31:39 PM: INFO: ---------- Delete the proposal
+03/04/2021 05:31:58 PM: INFO: ---------- END ---------- 

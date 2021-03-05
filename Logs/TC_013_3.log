@@ -1,0 +1,21 @@
+03/04/2021 07:12:52 PM: INFO: ####################################################################
+03/04/2021 07:12:52 PM: INFO:       TC_013_3: Bundle With Criteria (LI, ATTR) INCLUSION           
+03/04/2021 07:12:52 PM: INFO: #####################################################################
+03/04/2021 07:12:52 PM: INFO: ---------- Login to the application
+03/04/2021 07:13:10 PM: INFO: ---------- Create a new Proposal
+03/04/2021 07:13:23 PM: INFO: ---------- Set Proposal Fields ----------
+03/04/2021 07:13:36 PM: INFO: ---------- Configure the Proposal
+03/04/2021 07:13:46 PM: INFO: ---------- Configure the Bundle
+03/04/2021 07:13:57 PM: INFO: ---------- Set Attribute to trigger Constraint rule
+03/04/2021 07:14:02 PM: INFO: ---------- Verify Constraint rule message from Prompt
+03/04/2021 07:14:02 PM: INFO: ---------- (PASSED): Bundle to Option CR Prompt
+03/04/2021 07:14:16 PM: INFO: ---------- Verify Constraint rule message from Inclusion
+03/04/2021 07:14:16 PM: INFO: ---------- (PASSED): Bundle to Option CR Inclusion
+03/04/2021 07:14:16 PM: INFO: ---------- Verify Constraint rule message from Inclusion Show Message
+03/04/2021 07:14:16 PM: INFO: ---------- (PASSED): Bundle to Option CR Inclusion Show Message
+03/04/2021 07:14:16 PM: INFO: ---------- Select the Option Product and Verify Show Message disappears
+03/04/2021 07:14:54 PM: INFO: ---------- (PASSED): Bundle to Option CR Inclusion Show Message has disappeared
+03/04/2021 07:14:54 PM: INFO: ---------- Verify Check on Finalization message
+03/04/2021 07:14:56 PM: INFO: ---------- (PASSED): Bundle to Option CR Check On Finalization Message displayed
+03/04/2021 07:14:56 PM: INFO: ---------- Abandon the Cart
+03/04/2021 07:15:22 PM: INFO: ---------- END ---------- 

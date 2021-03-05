@@ -1,0 +1,33 @@
+03/04/2021 08:17:19 PM: INFO: ####################################################################
+03/04/2021 08:17:19 PM: INFO:              TC_014_3: Deal Guidance (Turbo Pricing)              
+03/04/2021 08:17:19 PM: INFO: ####################################################################
+03/04/2021 08:17:19 PM: INFO: ---------- Login to the application
+03/04/2021 08:17:50 PM: INFO: ---------- Create a new Proposal
+03/04/2021 08:18:04 PM: INFO: ---------- Set Proposal Fields ----------
+03/04/2021 08:18:20 PM: INFO: ---------- Configure the Proposal
+03/04/2021 08:18:31 PM: INFO: ---------- Configure the Bundle
+03/04/2021 08:19:19 PM: INFO: ---------- Click on Net Adj link for the Product
+03/04/2021 08:19:28 PM: INFO: ---------- Set Adjustments in Net Adj Popup and Click on Save
+03/04/2021 08:19:37 PM: INFO: ---------- Click on Reprice button
+03/04/2021 08:19:47 PM: INFO: ---------- Verify the Guidance Color
+03/04/2021 08:19:51 PM: INFO: ---------- Click on Net Adj link for the Product
+03/04/2021 08:20:01 PM: INFO: ---------- Set Adjustments in Net Adj Popup and Click on Save
+03/04/2021 08:20:10 PM: INFO: ---------- Click on Reprice button
+03/04/2021 08:20:20 PM: INFO: ---------- Verify the Guidance Color
+03/04/2021 08:20:24 PM: INFO: ---------- Click on Net Adj link for the Product
+03/04/2021 08:20:33 PM: INFO: ---------- Set Adjustments in Net Adj Popup and Click on Save
+03/04/2021 08:20:42 PM: INFO: ---------- Click on Reprice button
+03/04/2021 08:20:52 PM: INFO: ---------- Verify the Guidance Color
+03/04/2021 08:20:56 PM: INFO: ---------- Click on Net Adj link for the Product
+03/04/2021 08:21:06 PM: INFO: ---------- Set Adjustments in Net Adj Popup and Click on Save
+03/04/2021 08:21:14 PM: INFO: ---------- Click on Reprice button
+03/04/2021 08:21:25 PM: INFO: ---------- Verify the Guidance Color
+03/04/2021 08:21:29 PM: INFO: ---------- Click on Net Adj link for the Product
+03/04/2021 08:21:38 PM: INFO: ---------- Set Adjustments in Net Adj Popup and Click on Save
+03/04/2021 08:21:47 PM: INFO: ---------- Click on Reprice button
+03/04/2021 08:21:57 PM: INFO: ---------- Verify the Guidance Color
+03/04/2021 08:22:01 PM: INFO: ---------- Click on Net Adj link for the Product
+03/04/2021 08:22:10 PM: INFO: ---------- Set Adjustments in Net Adj Popup and Click on Save
+03/04/2021 08:22:19 PM: INFO: ---------- Click on Reprice button
+03/04/2021 08:22:30 PM: INFO: ---------- Verify the Guidance Color
+03/04/2021 08:23:00 PM: INFO: ---------- END ---------- 

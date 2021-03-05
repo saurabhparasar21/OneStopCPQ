@@ -1,0 +1,21 @@
+03/04/2021 11:41:32 AM: INFO: #################################################################
+03/04/2021 11:41:32 AM: INFO:  TC_011_2: Different Type of Adjustments Reg Cart Turbo Pricing 
+03/04/2021 11:41:32 AM: INFO: #################################################################
+03/04/2021 11:41:32 AM: INFO: ---------- Login to the Application
+03/04/2021 11:41:51 AM: INFO: ---------- Switch to Lightning if not set
+03/04/2021 11:41:51 AM: INFO: ---------- Create a new Proposal
+03/04/2021 11:42:04 AM: INFO: ---------- Set Proposal Fields
+03/04/2021 11:42:17 AM: INFO: ---------- Configure the Proposal
+03/04/2021 11:42:29 AM: INFO: ---------- Search and add Product to Cart
+03/04/2021 11:43:12 AM: INFO: ---------- Click on Net Adj link for the Product
+03/04/2021 11:43:18 AM: INFO: ---------- Set Adjustments in Net Adj Popup and Click on Save
+03/04/2021 11:43:41 AM: INFO: ---------- (PASSED): Manual Adjustment (% Discount), Grand Total is correct ----------
+03/04/2021 11:44:09 AM: INFO: ---------- (PASSED): Manual Adjustment (Discount Amount), Grand Total is correct ----------
+03/04/2021 11:44:37 AM: INFO: ---------- (PASSED): Manual Adjustment (%Mark up), Grand Total is correct ----------
+03/04/2021 11:45:05 AM: INFO: ---------- (PASSED): Manual Adjustment (Markup Amount), Grand Total is correct ----------
+03/04/2021 11:45:35 AM: INFO: ---------- (PASSED): Manual Adjustment (Price Override), Grand Total is correct ----------
+03/04/2021 11:46:03 AM: INFO: ---------- (PASSED): Manual Adjustment (Price Factor), Grand Total is correct ----------
+03/04/2021 11:46:16 AM: INFO: ---------- Go back to Catalog Page and the Prd to test Allow Manual Adj False at PLI
+03/04/2021 11:46:50 AM: INFO: ---------- (PASSED): Net Adj. is disabled for Product with Allow Manual Adj False in PLI
+03/04/2021 11:46:50 AM: INFO: ---------- Abandon the Cart and delete the proposal
+03/04/2021 11:47:15 AM: INFO: ---------- END ---------- 

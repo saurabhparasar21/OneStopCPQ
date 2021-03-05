@@ -1,0 +1,22 @@
+03/04/2021 10:53:01 AM: INFO: #################################################################
+03/04/2021 10:53:01 AM: INFO:  TC_011_1: Different Type of Adjustments Reg Cart Normal Pricing 
+03/04/2021 10:53:01 AM: INFO: #################################################################
+03/04/2021 10:53:01 AM: INFO: ---------- Login to the Application
+03/04/2021 10:53:20 AM: INFO: ---------- Switch to Lightning if not set
+03/04/2021 10:53:20 AM: INFO: ---------- Create a new Proposal
+03/04/2021 10:53:33 AM: INFO: ---------- Set Proposal Fields
+03/04/2021 10:53:47 AM: INFO: ---------- Configure the Proposal
+03/04/2021 10:53:57 AM: INFO: ---------- Search and add Product to Cart
+03/04/2021 10:54:50 AM: INFO: ---------- Click on Net Adj link for the Product
+03/04/2021 10:54:55 AM: INFO: ---------- Set Adjustments in Net Adj Popup and Click on Save
+03/04/2021 10:55:19 AM: INFO: ---------- (PASSED): Manual Adjustment (% Discount), Grand Total is correct ----------
+03/04/2021 10:55:47 AM: INFO: ---------- (PASSED): Manual Adjustment (Discount Amount), Grand Total is correct ----------
+03/04/2021 10:56:17 AM: INFO: ---------- (PASSED): Manual Adjustment (%Mark up), Grand Total is correct ----------
+03/04/2021 10:56:48 AM: INFO: ---------- (PASSED): Manual Adjustment (Markup Amount), Grand Total is correct ----------
+03/04/2021 10:57:18 AM: INFO: ---------- (PASSED): Manual Adjustment (Base Price Override), Grand Total is correct ----------
+03/04/2021 10:57:49 AM: INFO: ---------- (PASSED): Manual Adjustment (Price Override), Grand Total is correct ----------
+03/04/2021 10:58:23 AM: INFO: ---------- (PASSED): Manual Adjustment (Price Factor), Grand Total is correct ----------
+03/04/2021 10:58:37 AM: INFO: ---------- Go back to Catalog Page and the Prd to test Allow Manual Adj False at PLI
+03/04/2021 10:59:14 AM: INFO: ---------- (PASSED): Net Adj. is disabled for Product with Allow Manual Adj False in PLI
+03/04/2021 10:59:14 AM: INFO: ---------- Abandon the Cart and delete the proposal
+03/04/2021 10:59:45 AM: INFO: ---------- END ---------- 

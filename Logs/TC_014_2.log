@@ -1,0 +1,35 @@
+03/04/2021 08:09:46 PM: INFO: ####################################################################
+03/04/2021 08:09:46 PM: INFO:              TC_014_2: Deal Guidance (Split Cart)                   
+03/04/2021 08:09:46 PM: INFO: ####################################################################
+03/04/2021 08:09:46 PM: INFO: ---------- Login to the application
+03/04/2021 08:10:16 PM: INFO: ---------- Create a new Proposal
+03/04/2021 08:10:31 PM: INFO: ---------- Set Proposal Fields ----------
+03/04/2021 08:10:51 PM: INFO: ---------- Configure the Proposal
+03/04/2021 08:11:01 PM: INFO: ---------- Configure the Bundle
+03/04/2021 08:11:25 PM: INFO: ---------- Go to Shopping Cart
+03/04/2021 08:11:25 PM: INFO: ---------- Click on Submit for Pricing (Async) button
+03/04/2021 08:11:40 PM: INFO: ---------- Click on Net Adj link for the Product
+03/04/2021 08:11:49 PM: INFO: ---------- Set Adjustments in Net Adj Popup and Click on Save
+03/04/2021 08:11:58 PM: INFO: ---------- Click on Async Reprice button
+03/04/2021 08:12:12 PM: INFO: ---------- Verify the Guidance Color
+03/04/2021 08:12:16 PM: INFO: ---------- Click on Net Adj link for the Product
+03/04/2021 08:12:25 PM: INFO: ---------- Set Adjustments in Net Adj Popup and Click on Save
+03/04/2021 08:12:34 PM: INFO: ---------- Click on Async Reprice button
+03/04/2021 08:12:48 PM: INFO: ---------- Verify the Guidance Color
+03/04/2021 08:12:52 PM: INFO: ---------- Click on Net Adj link for the Product
+03/04/2021 08:13:01 PM: INFO: ---------- Set Adjustments in Net Adj Popup and Click on Save
+03/04/2021 08:13:10 PM: INFO: ---------- Click on Async Reprice button
+03/04/2021 08:13:24 PM: INFO: ---------- Verify the Guidance Color
+03/04/2021 08:13:28 PM: INFO: ---------- Click on Net Adj link for the Product
+03/04/2021 08:13:37 PM: INFO: ---------- Set Adjustments in Net Adj Popup and Click on Save
+03/04/2021 08:13:46 PM: INFO: ---------- Click on Async Reprice button
+03/04/2021 08:14:00 PM: INFO: ---------- Verify the Guidance Color
+03/04/2021 08:14:04 PM: INFO: ---------- Click on Net Adj link for the Product
+03/04/2021 08:14:13 PM: INFO: ---------- Set Adjustments in Net Adj Popup and Click on Save
+03/04/2021 08:14:22 PM: INFO: ---------- Click on Async Reprice button
+03/04/2021 08:14:36 PM: INFO: ---------- Verify the Guidance Color
+03/04/2021 08:14:40 PM: INFO: ---------- Click on Net Adj link for the Product
+03/04/2021 08:14:49 PM: INFO: ---------- Set Adjustments in Net Adj Popup and Click on Save
+03/04/2021 08:14:58 PM: INFO: ---------- Click on Async Reprice button
+03/04/2021 08:15:12 PM: INFO: ---------- Verify the Guidance Color
+03/04/2021 08:15:42 PM: INFO: ---------- END ---------- 
