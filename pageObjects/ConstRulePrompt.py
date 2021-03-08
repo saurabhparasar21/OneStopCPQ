@@ -11,6 +11,7 @@ class ConstRulePrompt:
         self.driver=driver
 
     def VerifyCRMessage(self,Message):
+        print("---------- Method: VerifyCRMessage")
         Path="//div[@class='modal-content__description']//p"
         PathEle=WebDriverWait(self.driver, 80).until(EC.element_to_be_clickable((By.XPATH, Path)))
         if str(Message) in PathEle.text:
@@ -19,6 +20,9 @@ class ConstRulePrompt:
             return False
 
     def ClickButton(self,ButtonName):
-        Path="//button[contains(text(),'"+ButtonName+"')]"
-        PathEle=WebDriverWait(self.driver, 80).until(EC.element_to_be_clickable((By.XPATH, Path)))
+        print("---------- Method: ClickButton")
+        #Path="//button[contains(text(),'"+ButtonName+"')]"
+        # Changed above path for Exclusion
+        Path="//div[@class='modal-dialog']//div[@class='modal-content__modal-row-container']//button[contains(text(),'Remove')]"
+        PathEle=WebDriverWait(self.driver, 80).until(EC.presence_of_element_located((By.XPATH, Path)))
         PathEle.click()
