@@ -11,6 +11,7 @@ class AttributePage:
         self.driver=driver
 
     def CheckIfAttrIsHidden(self,Attr):
+        print("---------- Method: CheckIfAttrIsHidden")
         AttrPath="//label[@class='product-attribute__name']"
         Cnt=self.driver.find_elements_by_xpath(AttrPath)
 
@@ -28,6 +29,7 @@ class AttributePage:
                     print("Attribute " + Attr + " is hidden")
 
     def AttrPageWaitForPricingToComplete(self):
+        print("---------- Method: AttrPageWaitForPricingToComplete")
         time.sleep(4)
         for r in range(300):
             path="//button[contains(@class,'GoToPricing')]"
@@ -37,6 +39,7 @@ class AttributePage:
                 break
 
     def SetQuantity(self,Qty):
+        print("---------- Method: SetQuantity")
         path="//label[contains(text(),'Qty')]/..//div//input"
         pathEle=WebDriverWait(self.driver, 60).until(EC.element_to_be_clickable((By.XPATH,path)))
         pathEle.clear()
@@ -45,6 +48,7 @@ class AttributePage:
         time.sleep(7)
 
     def IsAttrDisabled(self,AttrType,Attr):
+        print("---------- Method: IsAttrDisabled")
         if AttrType == "Text":
             Path="//*[contains(*,'"+Attr+"') and contains(@ng-class,'two')]//*[@type='text']"
             PathEle=WebDriverWait(self.driver, 80).until(EC.presence_of_element_located((By.XPATH,Path)))
@@ -79,6 +83,7 @@ class AttributePage:
                 return False
 
     def IsAttrRequired(self,AttrType,Attr):
+        print("---------- Method: IsAttrRequired")
         if AttrType == "Text":
             Path="//*[contains(*,'"+Attr+"') and contains(@ng-class,'two')]//*[@type='text']"
             PathEle=WebDriverWait(self.driver, 80).until(EC.presence_of_element_located((By.XPATH,Path)))
@@ -115,6 +120,7 @@ class AttributePage:
                 return False
 
     def IsAttrReset(self,AttrType,Attr,Value):
+        print("---------- Method: IsAttrReset")
         if AttrType == "Text":
             print("Scroll little more before")
             self.driver.execute_script("window.scrollBy(0, 75);")
@@ -202,6 +208,7 @@ class AttributePage:
                     return False
 
     def ClickButton(self,Button):
+        print("---------- Method: ClickButton")
         # All Buttons on Attr page works with this path
         if Button=="Remove Item":
             Button=="Remove"
@@ -210,6 +217,7 @@ class AttributePage:
         BtnEle.click()
 
     def ReadAttr(self,AttrType,Attr):
+        print("---------- Method: ReadAttr")
         if AttrType == "Text":
             Path="//*[contains(*,'"+Attr+"') and contains(@ng-class,'two')]//*[@type='text']"
             PathEle=WebDriverWait(self.driver, 80).until(EC.presence_of_element_located((By.XPATH,Path)))
@@ -238,6 +246,7 @@ class AttributePage:
             return my_list
 
     def CheckIfCorrectAttrAllowed(self,AttrType,Attr, Expected):
+        print("---------- Method: CheckIfCorrectAttrAllowed")
         if AttrType == "Picklist":
             Path="//*[contains(*,'"+Attr+"') and contains(@ng-class,'two')]"
             PathEle=WebDriverWait(self.driver, 80).until(EC.presence_of_element_located((By.XPATH,Path)))
@@ -279,6 +288,7 @@ class AttributePage:
                 return False
 
     def AttrPageAbandonCartIcon(self):
+        print("---------- Method: AttrPageAbandonCartIcon")
         AbnIconPath = "//*[contains(@ng-class,'Abandon')]"
         AbnIconEle = WebDriverWait(self.driver, 60).until(EC.element_to_be_clickable((By.XPATH, AbnIconPath)))
         AbnIconEle.click()
@@ -288,6 +298,7 @@ class AttributePage:
         ele.click()
 
     def SetAttribute(self,AttrType,Attr,Value):
+        print("---------- Method: SetAttribute")
         if AttrType == "Picklist":
             Path = "//*[contains(*,'"+Attr+"') and contains(@ng-class,'two')]"
             PathEle = WebDriverWait(self.driver, 80).until(EC.presence_of_element_located((By.XPATH, Path)))

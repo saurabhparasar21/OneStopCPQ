@@ -11,11 +11,13 @@ class AttributeOptionPage:
         self.driver=driver
 
     def ClickOnTab(self,TabName):
+        print("---------- Method: ClickOnTab")
         Path="//md-tab-item[contains(text(),'"+TabName+"')]"
         PathEle = WebDriverWait(self.driver, 80).until(EC.element_to_be_clickable((By.XPATH, Path)))
         PathEle.click()
 
     def VerifyCRMessage(self,Message):
+        print("---------- Method: VerifyCRMessage")
         try:
             Path="//*//p[contains(text(),'"+Message+"')]"
             PathEle = WebDriverWait(self.driver,30).until(EC.presence_of_element_located((By.XPATH, Path)))
@@ -31,6 +33,7 @@ class AttributeOptionPage:
             return False
 
     def SelectOptionPrd(self,OptionName):
+        print("---------- Method: SelectOptionPrd")
         Path="//span[text()='"+OptionName+"']/ancestor::div[@class='form-element-container product-option__name']//div"
         print("path is: "+str(Path))
         PathEle = WebDriverWait(self.driver, 80).until(EC.element_to_be_clickable((By.XPATH, Path)))
@@ -41,6 +44,7 @@ class AttributeOptionPage:
         PathEle.click()
 
     def ClickMiniCartButton(self,ButtonName):
+        print("---------- Method: ClickMiniCartButton")
         Path="//md-icon[@aria-label='shopping_cart']"
         PathEle = WebDriverWait(self.driver, 80).until(EC.element_to_be_clickable((By.XPATH, Path)))
         PathEle.click()
@@ -50,6 +54,7 @@ class AttributeOptionPage:
         PathEle1.click()
 
     def WaitForMiniCartPricingCalcToComplete(self):
+        print("---------- Method: WaitForMiniCartPricingCalcToComplete")
         time.sleep(1)
         Path="//span[text()='Recalculating...']"
         Cnt=self.driver.find_elements_by_xpath(Path)
@@ -59,6 +64,7 @@ class AttributeOptionPage:
                 break
 
     def AbandonCart(self):
+        print("---------- Method: AbandonCart")
         eleXpath = "//button[contains(@ng-class,'exit')]"
         ele = WebDriverWait(self.driver, 60).until(EC.element_to_be_clickable((By.XPATH, eleXpath)))
         ele.click()
