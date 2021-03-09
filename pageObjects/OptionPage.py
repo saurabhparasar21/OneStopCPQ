@@ -1,3 +1,4 @@
+import time
 from pyautogui import press
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
@@ -35,17 +36,19 @@ class OptionPage:
 
     def SelectOptionProd(self,OptnPrdName):
         print("---------- Method: SelectOptionProd")
-        self.SearchOption(OptnPrdName)
+        #self.SearchOption(OptnPrdName)
         OptnChkBxPath="//span[contains(text(),'"+OptnPrdName+"')]/ancestor::div[@class='form-element-container product-option__name']//div"
         OptnChkBx=WebDriverWait(self.driver, 60).until(EC.element_to_be_clickable((By.XPATH, OptnChkBxPath)))
         actions = ActionChains(self.driver)
         actions.move_to_element(OptnChkBx).perform()
         OptnChkBx.click()
 
+
     def IsOptionEnableOrDisable(self,OptnPrdName):
         print("---------- Method: IsOptionEnableOrDisable")
         Path="//span[text()='"+OptnPrdName+"']/ancestor::div[contains(@class,'form')]//div[@class='checkbox-override']//input"
         pathEle = WebDriverWait(self.driver, 60).until(EC.presence_of_element_located((By.XPATH, Path)))
+        time.sleep(4)
         return pathEle.get_attribute("disabled")
 
     def SetOptionPrdQty(self,OptnPrdName,Qty):

@@ -309,7 +309,6 @@ class CartPage:
                     time.sleep(2)
                     break
 
-
     def ClickCartMenuButton(self,Button):
         path="//span[@class='menu-toggle']"
         element1 = WebDriverWait(self.driver, 60).until(EC.element_to_be_clickable((By.XPATH,path)))
