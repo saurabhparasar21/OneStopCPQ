@@ -59,3 +59,6 @@ class HomePage:
     def SwitchToDefault(self):
         print("---------- Method: SwitchToDefault")
         self.driver.switch_to.default_content()
+
+    def SearchAndClickPage(self,AppName,pageName):
+        print("---------- Method: HomePage>SearchAndClickPage")
