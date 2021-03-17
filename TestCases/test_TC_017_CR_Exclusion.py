@@ -637,8 +637,9 @@ class Test_ConstRule_Exclusion:
             self.driver.close()
 
         self.lgrObj.info("---------- Abandon the Cart")
-        time.sleep(5)
+        time.sleep(7)
         AtrOptnPgObj.AbandonCart()
+        print("After abandon cart")
         time.sleep(8)
         PropsPageObj.DeleteProposal()
         time.sleep(5)
@@ -1050,7 +1051,7 @@ class Test_ConstRule_Exclusion:
             assert True
             self.lgrObj.info("---------- (PASSED): Bundle to Option CR Exclusion Prompt Message Matched")
             CRPromptObj.ClickButton('Remove')
-            time.sleep(4)
+            time.sleep(8)
         else:
             self.lgrObj.info("---------- (FAILED): Bundle to Option CR Exclusion Prompt Message doesn't Match")
             assert False
@@ -1069,7 +1070,7 @@ class Test_ConstRule_Exclusion:
 
         # Check Option to Option Exclusion Prompt Scenario
         OptnPgObj.SearchOption(OptionPrd2)
-        OptnPgObj.SetOptionPrdQty(OptionPrd2, 4)
+        OptnPgObj.SetOptionPrdQty(OptionPrd2,4)
         OptnPgObj.SelectOptionProd(OptionPrd2)
         time.sleep(4)
 

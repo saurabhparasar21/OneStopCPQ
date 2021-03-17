@@ -1,0 +1,12 @@
+03/09/2021 02:40:49 PM: INFO: ####################################################################
+03/09/2021 02:40:49 PM: INFO:       TC_017_1: B to O and O to O CR Exclusion Disable Selection    
+03/09/2021 02:40:49 PM: INFO: #####################################################################
+03/09/2021 02:40:49 PM: INFO: ---------- Login to the application
+03/09/2021 02:41:22 PM: INFO: ---------- Create a new Proposal
+03/09/2021 02:41:36 PM: INFO: ---------- Set Proposal Fields ----------
+03/09/2021 02:41:51 PM: INFO: ---------- Configure the Proposal
+03/09/2021 02:42:09 PM: INFO: ---------- Configure the Bundle
+03/09/2021 02:42:36 PM: INFO: ---------- (PASSED): Bundle to Option Disable Selection is successful
+03/09/2021 02:42:41 PM: INFO: ---------- (PASSED): Option to Option Disable Selection is successful
+03/09/2021 02:42:41 PM: INFO: ---------- Abandon the Cart
+03/09/2021 02:43:12 PM: INFO: ---------- END ---------- 

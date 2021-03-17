@@ -1,0 +1,14 @@
+03/09/2021 08:23:48 PM: INFO: ####################################################################
+03/09/2021 08:23:48 PM: INFO:       TC_017_4: B to O and O to O CR Exclusion Prompt               
+03/09/2021 08:23:48 PM: INFO: ####################################################################
+03/09/2021 08:23:48 PM: INFO: ---------- Login to the application
+03/09/2021 08:24:06 PM: INFO: ---------- Create a new Proposal
+03/09/2021 08:24:20 PM: INFO: ---------- Set Proposal Fields ----------
+03/09/2021 08:24:33 PM: INFO: ---------- Configure the Proposal
+03/09/2021 08:24:44 PM: INFO: ---------- Configure the Bundle
+03/09/2021 08:25:12 PM: INFO: ---------- (PASSED): Bundle to Option CR Exclusion Prompt Message Matched
+03/09/2021 08:25:12 PM: INFO: ---------- (PASSED): Option Prd has been unchecked by CR prompt remove action
+03/09/2021 08:25:19 PM: INFO: ---------- (PASSED): Option to Option CR Exclusion Prompt Message Matched
+03/09/2021 08:25:19 PM: INFO: ---------- (PASSED): Option Prd has been unchecked by CR prompt remove action
+03/09/2021 08:25:19 PM: INFO: ---------- Abandon the Cart
+03/09/2021 08:25:52 PM: INFO: ---------- END ---------- 

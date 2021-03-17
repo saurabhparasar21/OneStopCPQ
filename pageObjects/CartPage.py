@@ -313,15 +313,22 @@ class CartPage:
         path="//span[@class='menu-toggle']"
         element1 = WebDriverWait(self.driver, 60).until(EC.element_to_be_clickable((By.XPATH,path)))
         element1.click()
-        time.sleep(1)
+        time.sleep(3)
         path2="//button[contains(text(),'"+Button+"')]"
-        element2=self.driver.find_element_by_xpath(path2)
-        #WebDriverWait(self.driver, 60).until(EC.element_to_be_clickable((By.XPATH, path)))
-        # Scroll to the element
-        actions = ActionChains(self.driver)
-        actions.move_to_element(element2).perform()
-        time.sleep(1)
-        element2.click()
+        element2=self.driver.find_elements_by_xpath(path2)
+        for i in range(len(element2)):
+            if element2[i].text == Button:
+                #WebDriverWait(self.driver, 60).until(EC.element_to_be_clickable((By.XPATH, path)))
+                # Scroll to the element
+                actions = ActionChains(self.driver)
+                actions.move_to_element(element2[i]).perform()
+                time.sleep(1)
+                element2[i].click()
+
+    def ExpandAllIcon(self):
+        Path="//a[contains(@class,'toggle-row-icon toggle-header-row-icon')]"
+        element1 = WebDriverWait(self.driver, 60).until(EC.element_to_be_clickable((By.XPATH, Path)))
+        element1.click()
 
 
 
