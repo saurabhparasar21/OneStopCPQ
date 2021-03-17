@@ -48,13 +48,22 @@ class Test_CreateProposal:
 
         # self.lgrObj.info("Home Page: Search and then select an Opportunity MN-2020 Opportunity")
         hmpageObj.ClickSearchAppsIcon()
+        appToSearchFor = XLUtils.readData(self.file, 'TC_019', 2, 2)
+        hmpageObj.SearchAndClickApp(appToSearchFor)
+
+        hmpageObj.ClickSearchAppsIcon()
         appToSearchFor = XLUtils.readData(self.file, 'TC_019', 3, 2)
         hmpageObj.SearchAndClickApp(appToSearchFor)
+        WebDriverWait(self.driver,60).until(EC.frame_to_be_available_and_switch_to_it((By.XPATH,'//iframe')))
 
         time.sleep(30)
         # click on Pricing tab
         pricingPageObj = CPQAdmin(self.driver)
         pricingPageObj.ClickOnDetailPageTab('Pricing')
         print("Clicked on Pricing tab")
-
+        time.sleep(30)
+        pricingPageObj.ClickPipeLineTab('Manage Price Pipeline')
+        print("Clicked on Price Pipeline tab")
+        pricingPageObj.CreateNewPipeline('New Price Pipeline')
+        print('Clicked Pipeline Btn')
 
