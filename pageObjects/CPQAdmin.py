@@ -36,11 +36,17 @@ class CPQAdmin:
         print(now)
         nametext = "//input[@name='name']"
         self.driver.find_element_by_xpath(nametext).send_keys('NeW PP')
-        seqtext="//input[@name='sequence']"
+        seqtext = "//input[@name='sequence']"
         self.driver.find_element_by_xpath(seqtext).send_keys(1)
-        desctext="//textarea[@name='Description']"
+        desctext = "//textarea[@name='Description']"
         self.driver.find_element_by_xpath(desctext).send_keys("Newly cretaed Pipeline")
-        effectiveDate="//input[@placeholder='Effective Date']"
+        effectiveDate = "//input[@placeholder='Effective Date']"
         self.driver.find_element_by_xpath(effectiveDate).send_keys("03/15/2021")
-        expirationDate="//input[@placeholder='Expiration Date']"
+        expirationDate = "//input[@placeholder='Expiration Date']"
         self.driver.find_element_by_xpath(expirationDate).send_keys("03/15/2023")
+        clickAddBtn = "(//li[@dnd-draggable='pricePoint']//span[normalize-space()='add'])[last()]"
+        self.driver.find_element_by_xpath(clickAddBtn).click()
+        clickSearchbtn="//input[@id='fl-input-81']"
+        self.driver.find_element_by_xpath(clickSearchbtn).click()
+        clickSearchbtn = "//span[@title='Net Price']"
+        self.driver.find_element_by_xpath(clickSearchbtn).click()
