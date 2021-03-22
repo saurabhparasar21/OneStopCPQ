@@ -1,12 +1,12 @@
-03/10/2021 11:39:38 AM: INFO: ####################################################################
-03/10/2021 11:39:38 AM: INFO:       TC_017_2: B to O and O to O CR Exclusion Disable Selection    
-03/10/2021 11:39:38 AM: INFO: #####################################################################
-03/10/2021 11:39:38 AM: INFO: ---------- Login to the application
-03/10/2021 11:39:58 AM: INFO: ---------- Create a new Proposal
-03/10/2021 11:40:12 AM: INFO: ---------- Set Proposal Fields ----------
-03/10/2021 11:40:31 AM: INFO: ---------- Configure the Proposal
-03/10/2021 11:40:42 AM: INFO: ---------- Configure the Bundle
-03/10/2021 11:41:09 AM: INFO: ---------- (PASSED): Bundle to Option Disable Selection is successful
-03/10/2021 11:41:14 AM: INFO: ---------- (PASSED): Option to Option Disable Selection is successful
-03/10/2021 11:41:14 AM: INFO: ---------- Abandon the Cart
-03/10/2021 11:41:45 AM: INFO: ---------- END ---------- 
+03/09/2021 04:17:56 PM: INFO: ####################################################################
+03/09/2021 04:17:56 PM: INFO:       TC_017_2: B to O and O to O CR Exclusion Disable Selection    
+03/09/2021 04:17:56 PM: INFO: #####################################################################
+03/09/2021 04:17:56 PM: INFO: ---------- Login to the application
+03/09/2021 04:18:32 PM: INFO: ---------- Create a new Proposal
+03/09/2021 04:18:52 PM: INFO: ---------- Set Proposal Fields ----------
+03/09/2021 04:19:15 PM: INFO: ---------- Configure the Proposal
+03/09/2021 04:19:39 PM: INFO: ---------- Configure the Bundle
+03/09/2021 04:20:52 PM: INFO: ---------- (PASSED): Bundle to Option Disable Selection is successful
+03/09/2021 04:20:58 PM: INFO: ---------- (PASSED): Option to Option Disable Selection is successful
+03/09/2021 04:20:58 PM: INFO: ---------- Abandon the Cart
+03/09/2021 04:21:30 PM: INFO: ---------- END ---------- 

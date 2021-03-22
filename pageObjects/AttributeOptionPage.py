@@ -65,12 +65,29 @@ class AttributeOptionPage:
 
     def AbandonCart(self):
         print("---------- Method: AbandonCart")
-        eleXpath = "//button[contains(@ng-class,'exit')]"
-        ele = WebDriverWait(self.driver, 60).until(EC.element_to_be_clickable((By.XPATH, eleXpath)))
-        ele.click()
+        try:
+            print("Inside Try")
+            eleXpath="//button[contains(@ng-class,'exit')]"
+            ele1 = WebDriverWait(self.driver, 60).until(EC.presence_of_element_located((By.XPATH,eleXpath)))
+            ele1.click()
+        except:
+            print("Inside except")
+            eleXpath = "//button[contains(@class,'Abandon') and @type='button'][1]"
+            ele1 = WebDriverWait(self.driver, 60).until(EC.presence_of_element_located((By.XPATH, eleXpath)))
+            ele1.click()
+        time.sleep(3)
         path = "//md-dialog[contains(@aria-label,'Small')]//button[contains(text(),'OK')]"
         ele = self.driver.find_element_by_xpath(path)
         ele.click()
+
+    def SwitchToFrame(self):
+        print("---------- Method: SwitchToFrame")
+        framePath="//iFrame[contains(@title,'MN')]"
+        WebDriverWait(self.driver, 60).until(EC.frame_to_be_available_and_switch_to_it((By.XPATH,framePath)))
+
+    def SwitchToDefault(self):
+        print("---------- Method: SwitchToDefault")
+        self.driver.switch_to.default_content()
 
 
 

@@ -1,0 +1,11 @@
+03/10/2021 09:02:51 PM: INFO: ####################################################################
+03/10/2021 09:02:51 PM: INFO:       TC_018_2: B to O and B to Sub>O Allow manual Adj False        
+03/10/2021 09:02:51 PM: INFO: #####################################################################
+03/10/2021 09:02:51 PM: INFO: ---------- Login to the application
+03/10/2021 09:03:12 PM: INFO: ---------- Create a new Proposal
+03/10/2021 09:03:27 PM: INFO: ---------- Set Proposal Fields ----------
+03/10/2021 09:03:45 PM: INFO: ---------- Configure the Proposal
+03/10/2021 09:03:55 PM: INFO: ---------- Configure the Bundle
+03/10/2021 09:05:06 PM: INFO: ---------- (PASSED): Net Adjustment % is disabled for the option productMN - 2020 Option (Alw Adj False)
+03/10/2021 09:05:11 PM: INFO: ---------- (PASSED): Net Adjustment % is disabled for the option productMN - 2020 Option (Alw Adj False) (Inside SubBundle)
+03/10/2021 09:05:30 PM: INFO: ---------- END ---------- 
