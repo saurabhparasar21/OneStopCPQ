@@ -29,9 +29,9 @@ class Test_DirectConfiguration_CurrencyCheck:
     # Step:04 Set-up Test Scenario. Pass the driver through...
     @pytest.mark.RegularPricing
     def test_Currency_In_DirectConfiguration(self,setup):
-        self.lgrObj = Logger.logGen('TC_019_1')
+        self.lgrObj = Logger.logGen('TC_021_1')
         self.lgrObj.info("####################################################################")
-        self.lgrObj.info("      TC_019_1: Currency Code check in Direct Configuration          ")
+        self.lgrObj.info("      TC_021_1: Currency Code check in Direct Configuration          ")
         self.lgrObj.info("#####################################################################")
 
         self.driver = setup
@@ -51,7 +51,7 @@ class Test_DirectConfiguration_CurrencyCheck:
         self.lgrObj.info("---------- Create a new Proposal")
         hmpageObj.ClickSearchAppsIcon()
         # td_AppToSearchSelect=
-        appToSearchFor = XLUtils.readData(self.file,'TC_019', 2, 2)
+        appToSearchFor = XLUtils.readData(self.file,'TC_021', 2, 2)
         hmpageObj.SearchAndClickApp(appToSearchFor)
         # Set up Object for Proposal Tab Page object class
         PropsPageObj = ProposalDetailPage(self.driver)
@@ -63,23 +63,23 @@ class Test_DirectConfiguration_CurrencyCheck:
 
         self.lgrObj.info("---------- Set Proposal Fields ----------")
         # Proposal Name
-        label = XLUtils.readData(self.file, 'TC_019', 1, 3)
-        value = XLUtils.readData(self.file, 'TC_019', 2, 3)
+        label = XLUtils.readData(self.file, 'TC_021', 1, 3)
+        value = XLUtils.readData(self.file, 'TC_021', 2, 3)
         PropsPageObj.SetProposalField(label, value)
 
         # Price List
-        label = XLUtils.readData(self.file, 'TC_019', 1, 4)
-        value = XLUtils.readData(self.file, 'TC_019', 2, 4)
+        label = XLUtils.readData(self.file, 'TC_021', 1, 4)
+        value = XLUtils.readData(self.file, 'TC_021', 2, 4)
         PropsPageObj.SetProposalField(label, value)
 
         # Opportunity
-        label = XLUtils.readData(self.file, 'TC_019', 1, 5)
-        value = XLUtils.readData(self.file, 'TC_019', 2, 5)
+        label = XLUtils.readData(self.file, 'TC_021', 1, 5)
+        value = XLUtils.readData(self.file, 'TC_021', 2, 5)
         PropsPageObj.SetProposalField(label, value)
 
         # Account
-        label = XLUtils.readData(self.file, 'TC_019', 1, 6)
-        value = XLUtils.readData(self.file, 'TC_019', 2, 6)
+        label = XLUtils.readData(self.file, 'TC_021', 1, 6)
+        value = XLUtils.readData(self.file, 'TC_021', 2, 6)
         PropsPageObj.SetProposalField(label, value)
 
         # Click on Save button
@@ -92,7 +92,7 @@ class Test_DirectConfiguration_CurrencyCheck:
         CtlgPgObj = CatalogPage(self.driver)
         HomePage.SwitchToFrame(self)
         self.lgrObj.info("---------- Configure the Bundle")
-        PrdName= XLUtils.readData(self.file, 'TC_019', 2, 7)
+        PrdName= XLUtils.readData(self.file, 'TC_021', 2, 7)
         CtlgPgObj.SearchProduct(PrdName)
         CtlgPgObj.ConfigureProduct("Configure",PrdName)
 
@@ -102,7 +102,7 @@ class Test_DirectConfiguration_CurrencyCheck:
         time.sleep(2)
 
         OptnPgObj = OptionPage(self.driver)
-        OptionPrd1= XLUtils.readData(self.file, 'TC_019', 2, 8)
+        OptionPrd1= XLUtils.readData(self.file, 'TC_021', 2, 8)
 
 
         # Select the Option Product
